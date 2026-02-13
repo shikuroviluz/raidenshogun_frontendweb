@@ -1,10 +1,14 @@
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react' 
+import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  base: './',
+  base: '/', // ini sudah benar untuk Netlify
   plugins: [
-    react() ,tailwindcss()
+    react(),
+    tailwindcss()
   ],
+  build: {
+    outDir: 'dist'
+  }
 })
