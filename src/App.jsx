@@ -28,7 +28,7 @@ function MainPage() {
       <Region />
       <Element />
       <Funfact />
-      {/* <Becoming /> */}
+      <Becoming />
       <Friend />
       <Build />
       <WeaponDekstop/>
