@@ -23,6 +23,7 @@ import EngulfingPage from "./components/1_engulfing_page";
 function MainPage() {
   return (
     <div className="mx-auto">
+      <Navbar />
       <Home />
       <Detail />
       <Region />
@@ -44,7 +45,7 @@ function MainPage() {
 function App() {
   return (
     <>
-      <Navbar />
+      
 
       <Routes>
         <Route path="/" element={<MainPage />} />
