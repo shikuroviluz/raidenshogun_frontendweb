@@ -13,8 +13,8 @@ function WeaponDekstop(){
             <div className="absolute inset-0 z-10 flex flex-row justify-center items-center gap-40 ">
                 <h1 className="text-6xl" data-aos="fade-right" data-aos-duration="1400">Best Weapon</h1>
                 <div className="flex flex-col gap-3">
-                    <div data-aos="fade-left" data-aos-duration="1400"><D_WP_sign/></div>
-                    <div data-aos="fade-left" data-aos-duration="1800"><D_WP_thecatch/></div>
+                    <div data-aos="fade-up" data-aos-duration="1400"><D_WP_sign/></div>
+                    <div data-aos="fade-up" data-aos-duration="1800"><D_WP_thecatch/></div>
                 </div>
             </div>
         </div>

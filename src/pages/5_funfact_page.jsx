@@ -21,17 +21,17 @@ function Funfact(){
     {/* ---tampilan mobile--- */}
     <div className="md:hidden">
         <div className="flex flex-col gap-2 min-w-[250px] bg-black/0 px-10">
-            <h1 className="text-3xl" data-aos="fade-right" data-aos-duration="">Funfact</h1>
-            <h1 className="text-3xl text-right" data-aos="fade-left" data-aos-duration="">Raiden Shogun</h1>
+            <h1 className="text-3xl" data-aos="fade-up" data-aos-duration="">Funfact</h1>
+            <h1 className="text-3xl text-right" data-aos="fade-up" data-aos-duration="">Raiden Shogun</h1>
         </div>
         <div className="w-85 h-85 rounded-full overflow-hidden border-3 border-black mx-auto mb-50 mt-20" data-aos="zoom-in" data-aos-duration="1000">
             <img src={profilemobile} alt="raiden mobile profile" className="w-full h-full object-cover"/>
         </div>
         <div className="flex flex-row gap-4 px-4">
-            <div className="" data-aos="fade-right" data-aos-duration="1000">
+            <div className="" data-aos="fade-up" data-aos-duration="1000">
                 <img src={electroculus_funfact} alt="logo electroculus funfact" className="w-10 animate-spin" style={{ animationDuration: "2s" }}/>
             </div>
-            <div className="h-[2px] w-80 bg-white my-auto" data-aos="fade-left" data-aos-duration="1000"></div>
+            <div className="h-[2px] w-80 bg-white my-auto" data-aos="fade-up" data-aos-duration="1000"></div>
         </div>
     </div>
     </section>

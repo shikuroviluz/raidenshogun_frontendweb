@@ -30,13 +30,13 @@ function Friend(){
         <div className="flex flex-col items-center gap-3 p-4">
             <h1 className="text-2xl pt-90">Yaemiko's best Friend</h1>
             <div className="flex flex-row items-center gap-4">
-                <div className="w-25 h-25 rounded-full overflow-hidden border-3 border-black mx-auto mb-20 mt-20" data-aos="fade-right" data-aos-duration="1000">
+                <div className="w-25 h-25 rounded-full overflow-hidden border-3 border-black mx-auto mb-20 mt-20" data-aos="fade-up" data-aos-duration="1000">
                     <img src={raidenpp} alt="raiden pp" className=""/>
                 </div>
                 <div className="w-20 h-20 rounded-full overflow-hidden mx-auto mb-20 mt-20" data-aos="zoom-in">
                     <img src={hubungan} alt="hubungan logo" className="animate-spin" style={{ animationDuration: "2s" }}/>
                 </div>
-                <div className="w-25 h-25 rounded-full overflow-hidden border-3 border-black mx-auto mb-20 mt-20" data-aos="fade-left" data-aos-duration="1000">
+                <div className="w-25 h-25 rounded-full overflow-hidden border-3 border-black mx-auto mb-20 mt-20" data-aos="fade-up" data-aos-duration="1000">
                     <img src={yaemikopp} alt="yaemiko pp" className=""/>
                 </div>
             </div>

@@ -40,34 +40,59 @@ function Home() {
     </div>
     {/* ---bagian mobile--- */}
     <div className="md:hidden">
-        <div className="flex flex-col justify-center gap-3 p-4">
-            <div>
-                <h1 className="text-[40px] animate__animated animate__fadeInLeft">Raiden Shogun</h1>
-                <h1 className="text-[20px] animate__animated animate__fadeInLeft animate__delay-1s">Archon | Inazuma</h1>
-            </div>
-            <div className="h-[2px] w-full max-w-[320px] mx-auto bg-white animate__animated animate__fadeInLeft animate__delay-2s"></div>
-            <h1 className="text-[15px] animate__animated animate__fadeInLeft animate__delay-3s">
-                Archon Electro yang bersemayam di Inazuma dalam game Genshin Impact. Nama aslinya adalah Raiden Ei, 
-                yang menciptakan boneka bernama Raiden Shogun  untuk memerintah Inazuma sementara dia bermeditasi 
-                di Plane of Euthymia. Ia juga dikenal sebagai Beelzebul, The Almighty Shogun, dan Narukami Ogosho, 
-                berjanji akan keabadian.
-            </h1>
-        </div>
-        <div className="w-70 h-70 rounded-full overflow-hidden mx-auto border-3 border-black animate__animated animate__fadeInUp animate__delay-4s">
-            <img src={profile} alt="foto profile" className="w-full h-full object-cover"/>
-        </div>       
-        <h1 className="mb-3 text-center mt-10 animate__animated animate__fadeInUp animate__delay-5s">Official Trailer</h1>
-        <div className="flex flex-col justify-center mb-10 animate__animated animate__bounceIn animate__delay-5s">
-            <a
-                 href="https://youtu.be/ydPqFAEgHzs?si=jvHgbyOIUlsA5rTh" 
-                 target="_blank" 
-                 rel="noopener noreferrer" 
-                 className="bg-red-700 p-4 rounded-2xl hover:bg-red-500 mx-auto">
-                    <i className="ri-youtube-line ri-lg mr-2 mx-auto"></i>
-                 YouTube
-            </a>
-        </div>      
+
+  <div className="flex flex-col gap-3 p-4">
+
+    <div>
+      <h1 className="text-[40px] animate__animated animate__fadeInUp">
+        Raiden Shogun
+      </h1>
+
+      <h1 className="text-[20px] animate__animated animate__fadeInUp animate__delay-1s">
+        Archon | Inazuma
+      </h1>
     </div>
+
+    <div className="h-[2px] w-full max-w-[320px] mx-auto bg-white animate__animated animate__fadeInUp animate__delay-2s"></div>
+
+    <h1 className="text-[15px] animate__animated animate__fadeInUp animate__delay-3s">
+      Archon Electro yang bersemayam di Inazuma dalam game Genshin Impact. Nama
+      aslinya adalah Raiden Ei, yang menciptakan boneka bernama Raiden Shogun
+      untuk memerintah Inazuma sementara dia bermeditasi di Plane of Euthymia.
+      Ia juga dikenal sebagai Beelzebul, The Almighty Shogun, dan Narukami
+      Ogosho, berjanji akan keabadian.
+    </h1>
+
+  </div>
+
+  <div className="w-70 h-70 rounded-full overflow-hidden mx-auto border-3 border-black animate__animated animate__fadeInUp animate__delay-4s">
+    <img
+      src={profile}
+      alt="foto profile"
+      className="w-full h-full object-cover"
+    />
+  </div>
+
+  <h1 className="mb-3 text-center mt-10 animate__animated animate__fadeInUp animate__delay-5s">
+    Official Trailer
+  </h1>
+
+  <div className="flex flex-col justify-center mb-10 animate__animated animate__fadeInUp animate__delay-5s">
+
+    <a
+      href="https://youtu.be/ydPqFAEgHzs?si=jvHgbyOIUlsA5rTh"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="bg-red-700 p-4 rounded-2xl hover:bg-red-500 mx-auto"
+    >
+      <i className="ri-youtube-line ri-lg mr-2 mx-auto"></i>
+      YouTube
+    </a>
+
+  </div>
+
+</div>
+
     </section>
     </>
     );

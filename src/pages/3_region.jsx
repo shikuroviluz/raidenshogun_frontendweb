@@ -59,46 +59,109 @@ function Region() {
         </div>
         {/* ---tampilan mobile--- */}
         <div className="md:hidden">
-            <div className="flex flex-col justify-center gap-3 p-4">
-                <div className="flex flex-row justify-between">
-                    <h1 className="my-auto text-[20px]" data-aos="fade-right" data-aos-duration="">Region Authority</h1>
-                    <div data-aos="fade-left" data-aos-duration="">
-                        <img src={electroculus3} alt="logo electro page 3" className="w-10 h-10 ml-auto animate-spin" style={{ animationDuration: "2s" }}/>
-                    </div>
-                </div>
-                <h1 className="text-[15px]" data-aos="fade-right" data-aos-duration="1200">Inazuma</h1>
-                <img src={inazuma} alt="gambar inazuma" className="rounded-2xl w-60 h-30 mr-auto" data-aos="fade-right" data-aos-duration="1400"/>
-                <img src={japan} alt="gambar japan" className="rounded-2xl w-60 h-30 ml-auto" data-aos="fade-left" data-aos-duration="1600"/>
-                <div className="flex flex-row gap-4">
-                    <a
-                        href="https://genshin-impact.fandom.com/wiki/The_Immovable_God_and_the_Eternal_Euthymia"
-                        target="_blank" 
-                        rel="noopener noreferrer" 
-                        className="bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px] mr-auto" data-aos="fade-right" data-aos-duration="1800"> Act I: "The Immovable God and the Eternal Euthymia"
-                    </a>
-                    <a
-                        href="https://genshin-impact.fandom.com/wiki/Stillness,_the_Sublimation_of_Shadow" 
-                        target="_blank" 
-                        rel="noopener noreferrer" 
-                        className="bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px] mr-auto" data-aos="fade-left" data-aos-duration="1800"> Act II: "Stillness, the Sublimation of Shadow"
-                    </a>
-                </div>
-                <div className="flex flex-row gap-4">
-                    <a
-                        href="https://genshin-impact.fandom.com/wiki/Omnipresence_Over_Mortals" 
-                        target="_blank" 
-                        rel="noopener noreferrer" 
-                        className="bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px] mr-auto" data-aos="fade-right" data-aos-duration="2000"> Act III: "Omnipresence Over Mortals"
-                    </a>
-                    <a
-                        href="https://genshin-impact.fandom.com/wiki/Requiem_of_the_Echoing_Depths" 
-                        target="_blank" 
-                        rel="noopener noreferrer" 
-                        className="bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px] mr-auto" data-aos="fade-left" data-aos-duration="2000"> Act IV: "Requiem of the Echoing Depths"
-                    </a>
-                </div>
-            </div>
-        </div>
+  <div className="flex flex-col justify-center gap-3 p-4">
+
+    <div className="flex flex-row justify-between">
+      <h1
+        className="my-auto text-[20px]"
+        data-aos="fade-up"
+        data-aos-duration=""
+      >
+        Region Authority
+      </h1>
+
+      <div
+        data-aos="fade-up"
+        data-aos-duration=""
+      >
+        <img
+          src={electroculus3}
+          alt="logo electro page 3"
+          className="w-10 h-10 ml-auto animate-spin"
+          style={{ animationDuration: "2s" }}
+        />
+      </div>
+    </div>
+
+    <h1
+      className="text-[15px]"
+      data-aos="fade-up"
+      data-aos-duration="1200"
+    >
+      Inazuma
+    </h1>
+
+    <img
+      src={inazuma}
+      alt="gambar inazuma"
+      className="rounded-2xl w-60 h-30 mr-auto"
+      data-aos="fade-up"
+      data-aos-duration="1400"
+    />
+
+    <img
+      src={japan}
+      alt="gambar japan"
+      className="rounded-2xl w-60 h-30 ml-auto"
+      data-aos="fade-up"
+      data-aos-duration="1600"
+    />
+
+    <div className="flex flex-row gap-4">
+
+      <a
+        href="https://genshin-impact.fandom.com/wiki/The_Immovable_God_and_the_Eternal_Euthymia"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px] mr-auto"
+        data-aos="fade-up"
+        data-aos-duration="1800"
+      >
+        Act I: "The Immovable God and the Eternal Euthymia"
+      </a>
+
+      <a
+        href="https://genshin-impact.fandom.com/wiki/Stillness,_the_Sublimation_of_Shadow"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px] mr-auto"
+        data-aos="fade-up"
+        data-aos-duration="1800"
+      >
+        Act II: "Stillness, the Sublimation of Shadow"
+      </a>
+
+    </div>
+
+    <div className="flex flex-row gap-4">
+
+      <a
+        href="https://genshin-impact.fandom.com/wiki/Omnipresence_Over_Mortals"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px] mr-auto"
+        data-aos="fade-up"
+        data-aos-duration="2000"
+      >
+        Act III: "Omnipresence Over Mortals"
+      </a>
+
+      <a
+        href="https://genshin-impact.fandom.com/wiki/Requiem_of_the_Echoing_Depths"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px] mr-auto"
+        data-aos="fade-up"
+        data-aos-duration="2000"
+      >
+        Act IV: "Requiem of the Echoing Depths"
+      </a>
+
+    </div>
+
+  </div>
+</div>
+
     </>
     )
 }

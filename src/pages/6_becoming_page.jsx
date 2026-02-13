@@ -12,6 +12,7 @@ function Becoming(){
             </div>
         </div>
     </div>
+    {/* ---mobile--- */}
     <div className="md:hidden">
         <div className="relative w-full min-h-screen bg-[#310056]">
             <div className="absolute inset-0 flex flex-col items-center p-6 text-white">
