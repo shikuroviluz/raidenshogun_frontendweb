@@ -72,8 +72,9 @@ function Guide(){
                     <h1>Back to Raiden & Burst</h1>
                 </div>
             </div>
-            <video src={introVideo} controls className="pt-10 flex mx-auto w-95 rounded-2xl" data-aos="fade-up" data-aos-duration="2400">
-            </video>
+            <div className="flex flex-row justify-center items-center">
+                <video src={introVideo} controls className="pt-10 w-95 rounded-2xl" data-aos="fade-up" data-aos-duration="2400"></video>
+            </div>
         </div>
     </div>
     </section>
