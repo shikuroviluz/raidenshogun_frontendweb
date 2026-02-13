@@ -23,7 +23,6 @@ import EngulfingPage from "./components/1_engulfing_page";
 function MainPage() {
   return (
     <div className="mx-auto">
-      <Navbar/>
       <Home />
       <Detail />
       <Region />
