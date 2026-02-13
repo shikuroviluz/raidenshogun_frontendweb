@@ -76,7 +76,7 @@ function Detail() {
                         Inazuma sementara Ei bermeditasi)
                     </p>                   
                 </div>
-                <div className="">
+                <div>
                     <h1 className="mb-4 mt-4" data-aos="fade-right" data-aos-duration="1800">Voice Actor :</h1>
                     <div className="flex gap-3 mx-auto" data-aos="fade-right" data-aos-duration="2000">
                         <a
