@@ -38,7 +38,7 @@ function Element() {
                         <img src={electroculus} alt="page4 electroculus" className="w-10 ml-auto animate-spin" style={{ animationDuration: "2s" }} />
                     </div>
                 </div>
-                <div className="h-[2px] w-90 sm:w-90 bg-white mb-4 mx-auto" data-aos="fade-right" data-aos-duration="1000"></div>
+                <div className="h-[2px] w-80 sm:w-90 bg-white mb-4 mx-auto" data-aos="fade-right" data-aos-duration="1000"></div>
                 <img src={gnosispict} alt="gambar gnosis electro" className="w-40 mr-auto" data-aos="fade-right" data-aos-duration="1400"/>
                 <div className="text-white max-w-xl ml-auto">
                     <div className="flex flex-row mb-4 gap-3" data-aos="fade-right" data-aos-duration="1600">
