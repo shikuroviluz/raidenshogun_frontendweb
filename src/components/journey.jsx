@@ -26,8 +26,18 @@ function Journey(){
     </div>
     </div>
     {/* ---tampilan mobile--- */}
-    <div className="md:hidden w-screen ">
-    
+    <div className="md:hidden">
+    <div className="w-full my-24 text-white h-screen h-full">
+        <div className="relative flex items-center w-[2px] h-full bg-white" data-aos="zoom-in" data-aos-duration="3000">
+            <div className="absolute flex flex-col">
+                <div className="absolute flex flex-row justify-between items-center">
+                    <div>test</div>
+                    <div className="w-[15px] h-[15px] rounded-full bg-white"></div>
+                    <h1>test</h1>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
     </>
     );

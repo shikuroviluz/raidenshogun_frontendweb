@@ -22,7 +22,7 @@ import EngulfingPage from "./components/1_engulfing_page";
 
 function MainPage() {
   return (
-    <div className="mx-auto">
+    <div className="w-full overflow-x-hidden overflow-y-hidden">
       <Navbar />
       <Home />
       <Detail />
