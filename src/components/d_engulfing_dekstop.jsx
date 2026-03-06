@@ -3,7 +3,7 @@ import star from "../media/weapon/star.png"
 function D_WP_sign(){
     return(
     <>
-    <div className="flex flex-col gap-3">
+    <div className="flex flex-col gap-3 font-genshin">
         <div className="relative flex flex-col w-150 h-80 bg-[#fcf2d1] rounded-2xl
                         cursor-pointer hover:scale-105 transition duration-300 hover:shadow-lg">
             <div className="absolute inline-block w-full px-2 pt-2 bg-[#a3682c] rounded-t-2xl">

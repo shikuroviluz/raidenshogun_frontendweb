@@ -3,7 +3,7 @@ function Char_function(){
     return(
     <>
     {/* ---versi dekstop--- */}
-    <div className="md:block hidden">
+    <div className="md:block hidden font-genshin">
     <div className="flex flex-row justify-center">
         {/* ---page kiri--- */}
         <div className=" flex flex-col">
@@ -11,7 +11,7 @@ function Char_function(){
                 <div className="mx-10" data-aos="fade-up" data-aos-duration="1200"><h1>Raiden Nasional F2P</h1></div>
                 <div className="tools-box px-10 grid grid-cols-4 gap-4">{Char.filter(item => [11, 15, 2, 17].includes(item.id)).map(char => (
                     <div className="flex flex-row justify-center items-center gap-2 p-3 border bg-[#fcf2d1] text-[#525354]
-                                    cursor-pointer transition duration-300 hover:scale-105 border-zinc-600 rounded-md hover:border-zinc-800 group"
+                                    cursor-pointer hover:scale-105 transition duration-300 border-zinc-600 rounded-md hover:border-zinc-800 group"
                                     data-aos="fade-up" data-aos-duration="1200">
                         <div className="flex flex-col justify-center items-center">
                             <div>
@@ -158,7 +158,7 @@ function Char_function(){
     </div>
     </div>
     {/* ---versi mobile--- */}
-    <div className="flex flex-row justify-center md:hidden">
+    <div className="flex flex-row justify-center md:hidden font-genshin">
         {/* ---page kiri--- */}
         <div className=" flex flex-col py-2">
             <div className="py-2 ">

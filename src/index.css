@@ -1,1 +1,12 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: 'genshinfont';
+  src: url('/assets/genshinfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+.font-genshin {
+font-family: genshinfont, sans-serif;
+}

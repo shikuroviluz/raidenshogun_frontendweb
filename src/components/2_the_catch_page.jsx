@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function ENGpage(){
     return(
     <>
-    <div className="md:hidden">
+    <div className="md:hidden font-genshin">
     <div className="flex flex-col">
         <div className="px-3 text-3xl">
             <h1 className="mb-2">Engulfing Lightning</h1>

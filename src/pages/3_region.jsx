@@ -15,8 +15,8 @@ function Region() {
                 <div className="absolute inset-0 z-10 flex items-center px-10">
                     <div className="flex flex-col ml-auto">
                         <div className="text-white max-w-xl ml-auto">
-                            <div className="text-right text-4xl mb-4" data-aos="fade-left" data-aos-duration="1600">Region Authority</div>
-                            <div className="text-right text-[20px] mb-4" data-aos="fade-left" data-aos-duration="1700">Inazuma</div>
+                            <div className="text-right text-4xl mb-4 font-genshin" data-aos="fade-left" data-aos-duration="1600">Region Authority</div>
+                            <div className="text-right text-[20px] mb-4 font-genshin" data-aos="fade-left" data-aos-duration="1700">Inazuma</div>
                             <div className="h-[2px] md:w-100 sm:w-80 bg-white mb-4 ml-auto" data-aos="fade-left" data-aos-duration="1800"></div>
                             <p className="text-[16px] opacity-90 text-right mb-4" data-aos="fade-left" data-aos-duration="1900">
                                 Inazuma paling umum merujuk pada negara kepulauan 
@@ -25,32 +25,28 @@ function Region() {
                                 dalam bahasa Jepang dan juga merupakan nama kapal perusak Angkatan Laut Kekaisaran Jepang, 
                                 karakter di One Piece, serta waralaba Inazuma Eleven
                             </p>
-                            <p className="text-[10px] text-right" data-aos="fade-left" data-aos-duration="2000">Arc Inazuma</p>
+                            <p className="text-[10px] text-right mb-4" data-aos="fade-left" data-aos-duration="2000">Arc Inazuma</p>
                         </div>
-                        <div className="flex flex-row gap-4">
-                            <a
-                                href="https://genshin-impact.fandom.com/wiki/The_Immovable_God_and_the_Eternal_Euthymia"
-                                target="_blank" 
-                                rel="noopener noreferrer" 
-                                className="bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px] ml-auto" data-aos="fade-up" data-aos-duration="2700"> Act I: "The Immovable God and the Eternal Euthymia"
+                        <div className="flex flex-row gap-2 justify-end" data-aos="fade-left" data-aos-duration="2000">
+                            <a href="https://genshin-impact.fandom.com/wiki/The_Immovable_God_and_the_Eternal_Euthymia" target="_blank" rel="noopener noreferrer">
+                                <div className="flex items-center relative w-45 h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px]">
+                                    Act I: "The Immovable God and the Eternal Euthymia"
+                                </div>
                             </a>
-                            <a
-                                href="https://genshin-impact.fandom.com/wiki/Stillness,_the_Sublimation_of_Shadow" 
-                                target="_blank" 
-                                rel="noopener noreferrer" 
-                                className="bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px] ml-auto" data-aos="fade-up" data-aos-duration="2800"> Act II: "Stillness, the Sublimation of Shadow"
+                            <a href="https://genshin-impact.fandom.com/wiki/Stillness,_the_Sublimation_of_Shadow" target="_blank" rel="noopener noreferrer">
+                                <div className="flex items-center relative w-45 h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px]">
+                                    Act II: "Stillness, the Sublimation of Shadow"
+                                </div>
                             </a>
-                            <a
-                                href="https://genshin-impact.fandom.com/wiki/Omnipresence_Over_Mortals" 
-                                target="_blank" 
-                                rel="noopener noreferrer" 
-                                className="bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px] ml-auto" data-aos="fade-up" data-aos-duration="2900"> Act III: "Omnipresence Over Mortals"
+                            <a href="https://genshin-impact.fandom.com/wiki/Omnipresence_Over_Mortals" target="_blank" rel="noopener noreferrer">
+                                <div className="flex items-center relative w-45 h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px]">
+                                    Act III: "Omnipresence Over Mortals"
+                                </div>
                             </a>
-                            <a
-                                href="https://genshin-impact.fandom.com/wiki/Requiem_of_the_Echoing_Depths" 
-                                target="_blank" 
-                                rel="noopener noreferrer" 
-                                className="bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px] ml-auto" data-aos="fade-up" data-aos-duration="3000"> Act IV: "Requiem of the Echoing Depths"
+                            <a href="https://genshin-impact.fandom.com/wiki/Requiem_of_the_Echoing_Depths" target="_blank" rel="noopener noreferrer">
+                                <div className="flex items-center relative w-45 h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px]">
+                                    Act IV: "Requiem of the Echoing Depths"
+                                </div>
                             </a>
                         </div>
                     </div>                                                     
@@ -58,7 +54,56 @@ function Region() {
             </div>
         </div>
     {/* ---tampilan mobile--- */}
-        
+        <div className="md:hidden">
+            <div className="relative w-full h-full">
+                <div className="flex flex-col mx-4 gap-2">
+                    <div className="flex flex-row items-center ">
+                        <div className="text-2xl mr-auto font-genshin" data-aos="fade-right" data-aos-duration="1000">Region name</div>
+                        <div data-aos="fade-left" data-aos-duration="1100">
+                            <img src={electroculus3} alt="electroculus" className="w-10 h-10 ml-auto animate-spin" style={{ animationDuration: "2s" }} />
+                        </div>
+                    </div>
+                    <img src={inazuma} alt="inazuma pict" className="w-80 rounded-2xl" data-aos="fade-right" data-aos-duration="1200"/>
+                    <img src={japan} alt="inazuma pict" className="w-80 rounded-2xl ml-auto" data-aos="fade-left" data-aos-duration="1200"/>
+                    <div className="flex flex-row gap-2 mt-10" data-aos="fade-right" data-aos-duration="1300">
+                        <div className="w-3 h-3 rounded-full bg-white"></div>
+                        <div className="w-3 h-3 rounded-full bg-white"></div>
+                        <div className="w-3 h-3 rounded-full bg-white"></div>
+                    </div>
+                    <p className="text-[13px] opacity-80 bg-black/60 text-white px-4 py-4 rounded-lg" data-aos="fade-right" data-aos-duration="1400">
+                        Inazuma paling umum merujuk pada negara kepulauan fiktif bertema Jepang di game Genshin Impact yang dipimpin 
+                        oleh Electro Archon, Raiden Shogun, dan dirilis pada versi 2.0. Selain itu, istilah ini berarti "petir" 
+                        dalam bahasa Jepang dan juga merupakan nama kapal perusak Angkatan Laut Kekaisaran Jepang, karakter di 
+                        One Piece, serta waralaba Inazuma Eleven
+                    </p>
+                    <h1 className="text-[12px] text-white">Arc Inazuma :    </h1>
+                    <div className="flex flex-row gap-2 justify-end" data-aos="fade-left" data-aos-duration="2000">
+                        <a href="https://genshin-impact.fandom.com/wiki/The_Immovable_God_and_the_Eternal_Euthymia" target="_blank" rel="noopener noreferrer">
+                            <div className="flex items-center relative w-45 h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px]">
+                                Act I: "The Immovable God and the Eternal Euthymia"
+                            </div>
+                        </a>
+                        <a href="https://genshin-impact.fandom.com/wiki/Stillness,_the_Sublimation_of_Shadow" target="_blank" rel="noopener noreferrer">
+                            <div className="flex items-center relative w-45 h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px]">
+                                Act II: "Stillness, the Sublimation of Shadow"
+                            </div>
+                        </a>
+                    </div>
+                    <div className="flex flex-row gap-2 justify-end" data-aos="fade-left" data-aos-duration="2000">
+                        <a href="https://genshin-impact.fandom.com/wiki/Omnipresence_Over_Mortals" target="_blank" rel="noopener noreferrer">
+                            <div className="flex items-center relative w-45 h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px]">
+                                Act III: "Omnipresence Over Mortals"
+                            </div>
+                        </a>
+                        <a href="https://genshin-impact.fandom.com/wiki/Requiem_of_the_Echoing_Depths" target="_blank" rel="noopener noreferrer">
+                            <div className="flex items-center relative w-45 h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px]">
+                                Act IV: "Requiem of the Echoing Depths"
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </>
     )
 }

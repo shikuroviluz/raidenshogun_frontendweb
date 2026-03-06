@@ -6,15 +6,15 @@ function Home() {
     <>
       <section id="Home">
         {/* ---bagian dekstop--- */}
-        <div className="hidden md:block p-4 pt-35 items-center xl:gap-0 sm:gap-6">
+        <div className="hidden md:block p-4 pt-35 items-center xl:gap-0 sm:gap-6 ">
           <div className="grid grid-cols-2">
 
             {/* Text */}
             <div className="flex flex-col justify-center gap-4 p-4">
-              <h1 className="text-5xl/tight font-bold animate__animated animate__fadeInLeft">
+              <h1 className="text-5xl/tight font-bold animate__animated animate__fadeInLeft font-genshin">
                 Raiden Shogun
               </h1>
-              <h1 className="text-3xl animate__animated animate__fadeInLeft animate__delay-1s">
+              <h1 className="text-3xl animate__animated animate__fadeInLeft animate__delay-1s font-genshin">
                 Archon | Inazuma
               </h1>
               <div className="h-[2px] w-[150px] sm:w-80 bg-white animate__animated animate__fadeInLeft animate__delay-2s"></div>
@@ -27,14 +27,11 @@ function Home() {
               </p>
               <div className="animate__animated animate__fadeInLeft animate__delay-5s">
                 <h1 className="mb-9">Official Trailer :</h1>
-                <a
-                  href="https://youtu.be/ydPqFAEgHzs?si=jvHgbyOIUlsA5rTh"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-red-700 p-4 rounded-2xl hover:bg-red-500"
-                >
-                  <i className="ri-youtube-line ri-lg mr-2"></i>
-                  YouTube
+                <a href="https://youtu.be/ydPqFAEgHzs?si=jvHgbyOIUlsA5rTh" target="_blank" rel="noopener noreferrer">
+                  <div className="flex items-center p-2 relative w-28 h-10 bg-red-600 rounded-2xl hover:scale-105 transition duration-300">
+                    <i className="ri-youtube-line ri-lg mr-2"></i>
+                    YouTube
+                  </div>
                 </a>
               </div>
             </div>
@@ -62,15 +59,15 @@ function Home() {
         <div className="md:hidden w-full max-w-full overflow-x-hidden">
           <div className="flex flex-col gap-3 p-4">
             <div>
-              <h1 className="text-[40px] animate__animated animate__fadeInUp">
+              <h1 className="text-[40px] animate__animated animate__fadeInLeft font-genshin">
                 Raiden Shogun
               </h1>
-              <h1 className="text-[20px] animate__animated animate__fadeInUp animate__delay-1s">
+              <h1 className="text-[20px] animate__animated animate__fadeInLeft animate__delay-1s font-genshin">
                 Archon | Inazuma
               </h1>
             </div>
-            <div className="h-[2px] w-full max-w-[320px] mx-auto bg-white animate__animated animate__fadeInUp animate__delay-2s"></div>
-            <h1 className="text-[15px] animate__animated animate__fadeInUp animate__delay-3s">
+            <div className="h-[2px] w-full mx-auto bg-white animate__animated animate__fadeInLeft animate__delay-2s"></div>
+            <h1 className="text-[15px] animate__animated animate__fadeInLeft animate__delay-3s">
               Archon Electro yang bersemayam di Inazuma dalam game Genshin Impact.
               Nama aslinya adalah Raiden Ei, yang menciptakan boneka bernama Raiden
               Shogun untuk memerintah Inazuma sementara dia bermeditasi di Plane of
@@ -88,15 +85,12 @@ function Home() {
           <h1 className="mb-3 text-center mt-10 animate__animated animate__fadeInUp animate__delay-5s">
             Official Trailer
           </h1>
-          <div className="flex flex-col justify-center mb-10 animate__animated animate__fadeInUp animate__delay-5s">
-            <a
-              href="https://youtu.be/ydPqFAEgHzs?si=jvHgbyOIUlsA5rTh"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-red-700 p-4 rounded-2xl hover:bg-red-500 mx-auto"
-            >
-              <i className="ri-youtube-line ri-lg mr-2 mx-auto"></i>
-              YouTube
+          <div className="flex flex-col items-center mb-10 animate__animated animate__fadeInUp animate__delay-5s">
+            <a href="https://youtu.be/ydPqFAEgHzs?si=jvHgbyOIUlsA5rTh" target="_blank" rel="noopener noreferrer">
+              <div className="flex items-center p-2 relative w-28 h-10 bg-red-600 rounded-2xl hover:scale-105 transition duration-300">
+                <i className="ri-youtube-line ri-lg mr-2"></i>
+                YouTube
+              </div>
             </a>
           </div>
         </div>

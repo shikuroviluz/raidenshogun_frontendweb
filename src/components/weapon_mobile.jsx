@@ -4,7 +4,7 @@ import sign from "../media/weapon/engulfing_lightning.png"
 function Weapon (){
     return(
     <>
-    <div className="flex flex-row items-center justify-center gap-10 py-10">
+    <div className="flex flex-row items-center justify-center gap-10 font-genshin">
         <Link to="/the_catch" data-aos="fade-right" data-aos-duration="1300">
             <div className="relative bg-[#fcf2d1] w-30 h-37 flex justify-center rounded-2xl cursor-pointer hover:scale-105 transition duration-300 hover:shadow-lg hover:w-32 hover:h-39 hover:p-1">
                 <div className="relative bg-[#fcf2d1] w-30 h-37 flex justify-center rounded-2xl ">

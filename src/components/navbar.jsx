@@ -20,6 +20,7 @@ const Navbar = () => {
 
   return (
     <>
+    <div className="font-genshin">
     {/* ---mode dekstop--- */}
     <nav className={`
         hidden md:flex sm:gap-7
@@ -40,7 +41,7 @@ const Navbar = () => {
     <nav className="md:hidden navbar p-3 py-7 flex items-center justify-between transition-all duration-500">
         <h1 className="text-4xl font-bold text-white mt-3">Portfolio.</h1>
         <ul className={`
-            flex items-center gap-4 gap-8 mt-0
+            flex items-center gap-4 gap-5 mt-0
             fixed left-1/2 -translate-x-1/2 bg-black/40 backdrop-blur-md p-4
             rounded-br-2xl rounded-bl-2xl z-50 transition-all duration-100
             ${active ? "top-0 opacity-100":"-top-10 opacity-0"}`}> 
@@ -51,6 +52,7 @@ const Navbar = () => {
             <li><a href="#Guide" className="sm:text-lg font-medium">guide</a></li>
         </ul>
     </nav>
+    </div>
     </>
   )
 }

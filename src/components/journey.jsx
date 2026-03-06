@@ -27,14 +27,28 @@ function Journey(){
     </div>
     {/* ---tampilan mobile--- */}
     <div className="md:hidden">
-    <div className="w-full my-24 text-white h-screen h-full">
-        <div className="relative flex items-center w-[2px] h-full bg-white" data-aos="zoom-in" data-aos-duration="3000">
-            <div className="absolute flex flex-col">
-                <div className="absolute flex flex-row justify-between items-center">
-                    <div>test</div>
-                    <div className="w-[15px] h-[15px] rounded-full bg-white"></div>
-                    <h1>test</h1>
-                </div>
+    <div className="relative w-full my-10 text-white min-h-screen h-full">
+        <div className="relative flex flex-col gap-16 z-10">
+            <div className="absolute left-1/2 top-0 bottom-0 -translate-x-1/2 w-[2px] bg-white" data-aos="zoom-in" data-aos-duration="3000"></div>
+            <div className="flex items-center">
+                <div className="w-1/2 text-right pr-4" data-aos="fade-right" data-aos-duration="2000">melindungi inazuma bersama kakaknya Raiden Makoto</div>
+                <div className="w-4 h-4 bg-white rounded-full"></div>
+                <div className="w-1/2"></div>
+            </div>
+            <div className="flex items-center">
+                <div className="w-1/2"></div>
+                <div className="w-4 h-4 bg-white rounded-full"></div>
+                <div className="w-1/2 text-left pl-4" data-aos="fade-left" data-aos-duration="2200">melindungi inazuma bersama kakaknya Raiden Makoto</div>
+            </div>
+            <div className="flex items-center">
+                <div className="w-1/2 text-right pr-4" data-aos="fade-right" data-aos-duration="2400">melindungi inazuma bersama kakaknya Raiden Makoto</div>
+                <div className="w-4 h-4 bg-white rounded-full"></div>
+                <div className="w-1/2"></div>
+            </div>
+            <div className="flex items-center">
+                <div className="w-1/2"></div>
+                <div className="w-4 h-4 bg-white rounded-full"></div>
+                <div className="w-1/2 text-left pl-4" data-aos="fade-left" data-aos-duration="2600">melindungi inazuma bersama kakaknya Raiden Makoto</div>
             </div>
         </div>
     </div>

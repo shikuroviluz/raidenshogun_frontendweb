@@ -3,7 +3,7 @@ import {Material} from "../data"
 function Ascension(){
     return(
     <>
-    <div className="hidden md:block">
+    <div className="hidden md:block font-genshin">
         <div className="relative w-full h-full">
             <img src={weaponpage} alt="absolute background page9" className="w-full h-fit object-cover"/>
             <div className="absolute top-0 left-0 w-full h-100 bg-gradient-to-t from-transparent to-[#310056]"></div>

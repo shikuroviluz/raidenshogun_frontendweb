@@ -1,13 +1,17 @@
 import buildpage from "../media/background/background_dekstop8.jpg"
-import statsands from "../media/artefact/stat_sands.png"
-import statgoblet from "../media/artefact/stat_goblet.png"
-import statcirclet from "../media/artefact/stat_circlet.png"
-import bestartefact from "../media/artefact/emblem_of_severed_fate.png"
-import bestartefactmobile from "../media/artefact/emblem_of_severed_fate_mobile.png"
+import paradiselost from "../media/artefact/flower_of_paradise_lost.png"
+import gilded from "../media/artefact/gilded_dreams.png"
+import emblem from "../media/artefact/emblem_of_severed_fate.png"
+import baseatk from "../media/artefact/base_atk.png"
+import skillE from "../media/artefact/skill_e.png"
+import burstQ from "../media/artefact/skill_burst.png"
 import sands from "../media/artefact/sands.png"
 import goblet from "../media/artefact/goblet.png"
 import circlet from "../media/artefact/circlet.png"
 import Weapon from "../components/weapon_mobile"
+import MobileArte from "../components/mobile_artefact_build"
+import MobileStat from "../components/mobile_stats_priority"
+import MobileTalent from "../components/mobile_talent_priority"
 function Build(){
     return(
     <>
@@ -19,28 +23,97 @@ function Build(){
             <div className="absolute inset-0 bg-gradient-to-r from-[#310056]/100 to-transparent" data-aos="fade-right" data-aos-duration="1000"></div>
             <div className="absolute top-0 left-0 w-full h-50 bg-gradient-to-t from-transparent to-[#310056]"></div>
             <div className="absolute bottom-0 left-0 w-full h-50 bg-gradient-to-b from-transparent to-[#310056]"></div>
-            <div className="absolute inset-0 z-10 flex items-center px-10">
-                <div className="text-white max-w-xl flex flex-col">
-                    <h1 className="text-4xl mb-10">Build Raiden Shogun</h1>
-                    <div className="flex flex-row gap-10 justify-center">
-                        <div className="flex flex-col items-center" data-aos="zoom-in" data-aos-duration="1000">
-                            <h1 className="text-2xl my-5">sands</h1>
-                            <img src={statsands} alt="sands" className="w-80 rounded-2xl"/>
+            <div className="absolute inset-0 z-10 flex items-center px-10 w-full h-full">
+                <div className="text-white flex flex-col w-full bg-black/40 backdrop-blur-md p-6 rounded-xl">
+                    <h1 className="text-4xl font-genshin font-genshin">Build Raiden Shogun</h1>
+                    <h1 className="text-[20px] mb-5 font-genshin font-genshin">Recomendation Stats, Artefact & Talent Upgrade</h1>
+                    <div className="flex flex-row justify-between items-start gap-2 text-center">
+                        <div className="grid grid-cols-3 divide-white" data-aos="zoom-in" data-aos-duration="1200">
+                        {/* {baris 1} */}
+                            <div className="flex flex-col items-center justify-center p-3 border-2 border-white">
+                                <img src={sands} alt="sands" className="w-15 rounded-2xl"/>
+                                <h1 className="text-[20px] ">sands</h1>
+                            </div>
+                            <div className="flex flex-col items-center justify-center p-3 border-2 border-white">
+                                <img src={goblet} alt="goblet" className="w-15 rounded-2xl"/>
+                                <h1 className="text-[20px]">goblet</h1>
+                            </div>
+                            <div className="flex flex-col items-center justify-center p-3 border-2 border-white">
+                                <img src={circlet} alt="circlet" className="w-15 rounded-2xl"/>
+                                <h1 className="text-[20px]">circlet</h1>
+                            </div>
+                        {/* {baris 2} */}
+                            <div className="flex flex-col items-center justify-center p-3 border-2 border-white">
+                                <h1 className="text-[20px]">Energy Recharge</h1>
+                            </div>
+                            <div className="flex flex-col items-center justify-center p-3 border-2 border-white">
+                                <h1 className="text-[20px]">Electro Damage</h1>
+                            </div>
+                            <div className="flex flex-col items-center justify-center p-3 border-2 border-white">
+                                <h1 className="text-[20px]">Crit Rate / Crit Damage</h1>
+                            </div>
+                        {/* {baris 3} */}
+                            <div className="flex flex-col items-center justify-center p-3 border-2 border-white">
+                                <h1 className="text-[20px]">Atk%</h1>
+                            </div>
+                            <div className="flex flex-col items-center justify-center p-3 border-2 border-white">
+                                <h1 className="text-[20px]">Atk%</h1>
+                            </div>
+                            <div className="flex flex-col items-center justify-center p-3 border-2 border-white">
+                                <h1 className="text-[20px]">Crit Rate / Crit Damage</h1>
+                            </div>
+                        {/* {baris 4} */}
+                            <div className="flex flex-col items-center justify-center p-3 border-2 border-white">
+                                <h1 className="text-[20px]">Elemental Mastery</h1>
+                            </div>
+                            <div className="flex flex-col items-center justify-center p-3 border-2 border-white">
+                                <h1 className="text-[20px]">Elemental Mastery</h1>
+                            </div>
+                            <div className="flex flex-col items-center justify-center p-3 border-2 border-white">
+                                <h1 className="text-[20px]">Elemental Mastery</h1>
+                            </div>
                         </div>
-                        <div className="flex flex-col items-center" data-aos="zoom-in" data-aos-duration="1200">
-                            <h1 className="text-2xl my-5">goblet</h1>
-                            <img src={statgoblet} alt="sands" className="w-80 rounded-2xl"/>
+                        <div className="grid grid-cols-3 divide-white" data-aos="zoom-in" data-aos-duration="1200">
+                        {/* {baris 1} */}
+                            <div className="flex flex-col items-center justify-center p-3 border-2 border-white">
+                                <img src={emblem} alt="sands" className="w-20 rounded-2xl"/>
+                                <h1 className="text-[13px]">4 PC</h1>
+                                <h1 className="text-[13px]">Emblem of Severed Fate</h1>
+                            </div>
+                            <div className="flex flex-col items-center justify-center p-3 border-2 border-white">
+                                <img src={gilded} alt="goblet" className="w-20 rounded-2xl"/>
+                                <h1 className="text-[13px]">4 PC</h1>
+                                <h1 className="text-[13px]">Gilded Dreams</h1>
+                            </div>
+                            <div className="flex flex-col items-center justify-center p-3 border-2 border-white">
+                                <img src={paradiselost} alt="circlet" className="w-20 rounded-2xl"/>
+                                <h1 className="text-[13px]">4 PC</h1>
+                                <h1 className="text-[13px]">Flower of Paradise Lost</h1>
+                            </div>
                         </div>
-                    </div>
-                    <div className="flex flex-row gap-10 justify-center">
-                        <div className="flex flex-col items-center" data-aos="zoom-in" data-aos-duration="1400">
-                            <h1 className="text-2xl my-5">circlet</h1>
-                            <img src={statcirclet} alt="sands" className="w-80 rounded-2xl"/>
-                        </div>
-                        <div className="flex flex-col items-center px-8" data-aos="zoom-in" data-aos-duration="1600">
-                            <h1 className="text-2xl my-5">best artefact</h1>
-                            <img src={bestartefact} alt="sands" className="w-40"/>
-                            <p className="text-center">4PC emblem of severed fate</p>
+                        <div className="grid grid-cols-2 divide-white" data-aos="zoom-in" data-aos-duration="1200">
+                        {/* {baris 1} */}
+                            <div className="flex flex-col items-center justify-center p-3 border-2 border-white">
+                                <img src={burstQ} alt="sands" className="w-20 rounded-2xl"/>
+                            </div>
+                            <div className="flex flex-col items-center justify-center p-3 border-2 border-white">
+                                <h1 className="text-[13px]">Burst</h1>
+                                <h1 className="text-[13px]">First Priority</h1>
+                            </div>
+                            <div className="flex flex-col items-center justify-center p-3 border-2 border-white">
+                                <img src={skillE} alt="goblet" className="w-23 rounded-2xl"/>
+                            </div>
+                            <div className="flex flex-col items-center justify-center p-3 border-2 border-white">
+                                <h1 className="text-[13px]">Skill</h1>
+                                <h1 className="text-[13px]">Second Priority</h1>
+                            </div>
+                            <div className="flex flex-col items-center justify-center p-3 border-2 border-white">
+                                <img src={baseatk} alt="circlet" className="w-20 rounded-2xl"/>
+                            </div>
+                            <div className="flex flex-col items-center justify-center p-3 border-2 border-white">
+                                <h1 className="text-[13px]">Base Atk</h1>
+                                <h1 className="text-[13px]">Opsional</h1>
+                            </div>  
                         </div>
                     </div>
                 </div>
@@ -49,33 +122,14 @@ function Build(){
     </div>
     {/* ---tampilan mobile--- */}
     <div className="md:hidden">
-        <div className="flex flex-col items-center my-10">
-            <h1 className="text-3xl mb-5" data-aos="fade-up" data-aos-duration="1000">Build Raiden Shogun</h1>
-            <h1 className="my-10" data-aos="fade-up" data-aos-duration="1200">4PC emblem of severed fate</h1>
-            <div className="flex flex-row gap-15 justify-center" data-aos="fade-up" data-aos-duration="1400">
-                <img src={bestartefactmobile} alt="artefact mobile" className="w-30"/>
-                <div className="flex flex-col items-center justify-center">
-                    <img src={sands} alt="sands" className="w-15"/>
-                    <p>Energy recharge</p>
-                    <p>atk%</p>
-                </div>
-            </div>
-            <div className="flex flex-row gap-10 justify-center mb-10" data-aos="fade-up" data-aos-duration="1400">
-                <div className="flex flex-col items-center justify-center px-1">
-                    <img src={goblet} alt="goblet" className="w-15"/>
-                    <p>Electro Damage</p>
-                    <p>atk%</p>
-                </div>
-                <div className="flex flex-col items-center justify-center px-5">
-                    <img src={circlet} alt="circlet" className="w-15"/>
-                    <p>Crit Rate</p>
-                    <p>Crit Damage</p>
-                </div>
-            </div>
+        <div className="flex flex-col items-center my-10 px-2">
+            <h1 className="text-3xl mb-5 font-genshin" data-aos="fade-up" data-aos-duration="1000">Build Raiden Shogun</h1>
+            <MobileArte/>
+            <MobileStat/>
+            <MobileTalent/>
             <h1 className="text-3xl mb-5" data-aos="fade-up" data-aos-duration="1600">Best Weapon</h1>
             <div className="flex flex-col items-center" data-aos="fade-up" data-aos-duration="2000">
                 <Weapon/>
-                
             </div>
         </div>
     </div>
@@ -83,5 +137,4 @@ function Build(){
     </>
     );
 }
-
 export default Build;

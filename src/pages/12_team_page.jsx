@@ -11,9 +11,9 @@ function Team(){
             <div className="absolute bottom-0 left-0 w-full h-50 bg-gradient-to-b from-transparent to-[#310056]"></div>
             <div className="absolute inset-0 z-10 flex flex-col gap-3 py-20 px-10">
                 <div className="pb-20">
-                    <h1 className="text-7xl text-center" data-aos="fade-up" data-aos-duration="1000">Best Team Party</h1>
+                    <h1 className="text-7xl text-center font-genshin" data-aos="fade-up" data-aos-duration="1000">Best Team Party</h1>
                 </div>
-                <div className="inline-block bg-black/50 rounded-2xl backdrop-blur-2xl">
+                <div className="inline-block p-5 bg-black/50 rounded-2xl backdrop-blur-2xl">
                     <Char_function/>
                 </div>
             </div>
@@ -24,7 +24,7 @@ function Team(){
         <div className="relative w-full h-full">
             <div className="absolute inset-0 z-10 flex flex-col gap-3 py-20 px-10">
                 <div className="pb-10" data-aos="fade-up" data-aos-duration="1500">
-                    <h1 className="text-3xl text-center">Best Team Party</h1>
+                    <h1 className="text-3xl text-center font-genshin">Best Team Party</h1>
                 </div>
                 <div className="inline-block bg-black/50 rounded-2xl backdrop-blur-2xl" data-aos="fade-up" data-aos-duration="2500">
                     <Char_function/>

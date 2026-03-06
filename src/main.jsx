@@ -12,8 +12,12 @@ import 'animate.css'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
-AOS.init();
-
+AOS.init({
+  once: true,
+  duration: 1000,
+  easing: "ease-out-cubic",
+  offset: 120,
+});
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

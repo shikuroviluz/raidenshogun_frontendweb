@@ -1,4 +1,9 @@
 import hoyolab from "../../public/assets/sosial_media/hoyolab.jpg";
+import tailwindcss from "../../public/assets/sosial_media/tailwindcss.svg"
+import vite from "../../public/assets/sosial_media/vite.svg"
+import vscode from "../../public/assets/sosial_media/vscode.png"
+import js_logo from "../../public/assets/sosial_media/js_logo.png"
+import git from "../../public/assets/sosial_media/github_logo.png"
 function Footer (){
     return(
     <>
@@ -10,23 +15,52 @@ function Footer (){
             <h1 className="text-5xl">Shikuro Viluz</h1>
             <div className="bg-white w-100 h-[2px]"></div>
             <h1 className="text-[15px]">Assets Support :</h1>
-            <a href="https://gi.yatta.moe/en" target="_blank" rel="noopener noreferrer" 
-                className="underline decoration-2 text-[10px] cursor-pointer transition duration-300 hover:text-amber-300 hover:scale-105">Project Amber
-            </a>
-            <a href="https://id.pinterest.com/" target="_blank" rel="noopener noreferrer" 
-                className="underline decoration-2 text-[10px] cursor-pointer transition duration-300 hover:text-amber-300 hover:scale-105">Pinterest
-            </a>
-            <a href="https://michalsnik.github.io/aos/" target="_blank" rel="noopener noreferrer" 
-                className="underline decoration-2 text-[10px] cursor-pointer transition duration-300 hover:text-amber-300 hover:scale-105">AOS
-            </a>
-            <a href="https://animate.style/" target="_blank" rel="noopener noreferrer" 
-                className="underline decoration-2 text-[10px] cursor-pointer transition duration-300 hover:text-amber-300 hover:scale-105">Animated style
-            </a>
-            <a href="https://genshin.hoyoverse.com/id/" target="_blank" rel="noopener noreferrer" 
-                className="underline decoration-2 text-[10px] cursor-pointer transition duration-300 hover:text-amber-300 hover:scale-105">Genshin Impact
-            </a>
+            <div className="flex flex-row gap-2">
+                <div className="flex flex-col">
+                    <a href="https://gi.yatta.moe/en" target="_blank" rel="noopener noreferrer" 
+                        className="underline decoration-2 text-[10px] cursor-pointer transition duration-300 hover:text-amber-300 hover:scale-105">Project Amber
+                    </a>
+                    <a href="https://id.pinterest.com/" target="_blank" rel="noopener noreferrer" 
+                        className="underline decoration-2 text-[10px] cursor-pointer transition duration-300 hover:text-amber-300 hover:scale-105">Pinterest
+                    </a>
+                    <a href="https://michalsnik.github.io/aos/" target="_blank" rel="noopener noreferrer" 
+                        className="underline decoration-2 text-[10px] cursor-pointer transition duration-300 hover:text-amber-300 hover:scale-105">AOS
+                    </a>
+                    <a href="https://animate.style/" target="_blank" rel="noopener noreferrer" 
+                        className="underline decoration-2 text-[10px] cursor-pointer transition duration-300 hover:text-amber-300 hover:scale-105">Animated style
+                    </a>
+                    <a href="https://genshin.hoyoverse.com/id/" target="_blank" rel="noopener noreferrer" 
+                        className="underline decoration-2 text-[10px] cursor-pointer transition duration-300 hover:text-amber-300 hover:scale-105">Genshin Impact
+                    </a>
+                </div>
+                <div className="bg-white h-full w-[2px]"></div>
+                <div className="flex flex-col gap-4">
+                    <div className="flex flex-row gap-4 items-center">
+                        <a href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer" className="hover:scale-105">
+                            <img src={vscode} alt="vscode" className="w-15 cursor-pointer hover:scale-105 transition duration-300 hover:shadow-lg"/>
+                        </a>
+                        <a href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer" className="hover:scale-105">
+                            <img src={vite} alt="vite" className="w-15 cursor-pointer hover:scale-105 transition duration-300 hover:shadow-lg"/>
+                        </a>
+                        <a href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer" className="hover:scale-105">
+                            <img src={tailwindcss} alt="tailwindcss" className="w-15 cursor-pointer hover:scale-105 transition duration-300 hover:shadow-lg"/>
+                        </a>
+                    </div>
+                    <div className="flex flex-row gap-4">
+                        <a href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer" className="hover:scale-105">
+                            <img src={js_logo} alt="js" className="w-40 cursor-pointer hover:scale-105 transition duration-300 hover:shadow-lg"/>
+                        </a>
+                        <a href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer" className="hover:scale-105">
+                            <img src={git} alt="js" className="w-30 cursor-pointer hover:scale-105 transition duration-300 hover:shadow-lg"/>
+                        </a>
+                    </div>
+                    <div className="text-[13px] mb-[18px]">
+                        created by ahmad firza nur rozin as shikuro viluz 
+                    </div>
+                </div>
+            </div>
         </div>
-        <div className="bg-white w-[1px] h-70"></div>
+        <div className="bg-white w-[1px] h-full"></div>
         <div className="flex flex-col items-center gap-2">
             <h1>Contact me</h1>
             <div className="flex flex-row justify-center gap-10">
@@ -59,17 +93,23 @@ function Footer (){
                     </div>                       
                 </a>
             </div>
-            <div className="bg-white w-100 h-[2px]"></div>
+            <div className="bg-white w-full h-[2px]"></div>
             <div>
-                <p className="text-[10px] text-center">
-                    Terima kasih telah meluangkan waktu untuk mengunjungi website kami. 
-                    terus kunjungi <a href="https://www.tiktok.com/@shikuroviluz._" target="_blank" rel="noopener noreferrer" 
-                    className="hover:text-amber-300 underline decoration-1">
-                    @shikuroviluz._</a> untuk info menarik selanjutnya
+                <p className="text-[10px] mx-4">
+                    Thank you for taking the time to visit our website. Keep visiting <a href="https://www.tiktok.com/@shikuroviluz._" 
+                    target="_blank" rel="noopener noreferrer" className="hover:text-amber-300 underline decoration-1">
+                    @shikuroviluz._</a> for more interesting information.
+                </p>
+            </div>
+            <div className="bg-white w-full h-[2px]"></div>
+            <div>
+                <p className="text-[10px] mx-4">
+                    This website was created for entertainment and learning purposes only. This website is fanmade and is not 
+                    affiliated with Mihoyo. All assets here are owned by their original owners.
                 </p>
             </div>
         </div>
-        <div className="w-[1px] h-70 bg-white"></div>
+        <div className="h-full w-[1px] bg-white"></div>
         <div className="flex flex-col items-center">
             <a href="https://www.hoyolab.com/accountCenter/postList?id=362406479" target="_blank" rel="noopener noreferrer">
                 <div className="relative w-145 h-70 bg-white rounded-2xl hover:scale-105 transition duration-300">
@@ -79,8 +119,12 @@ function Footer (){
                             <h1 className="text-[#310056] text-[65px]">Hoyolab</h1>
                             <div className="w-73 h-[2px] bg-[#310056]"></div>
                             <h1 className="text-[#310056]">As VILUZ</h1>
+                            <p className="text-[#310056] text-[10px]">
+                                Viluz | Theorycrafter & Build Explorer Berbagi build karakter, tips gameplay, dan eksperimen 
+                                damage di Teyvat.Kalau kamu suka min-maxing atau sekadar mencari build terbaik, kamu berada 
+                                di tempat yang tepat.
+                            </p>
                         </div>
-                        
                     </div>
                 </div>
             </a>            

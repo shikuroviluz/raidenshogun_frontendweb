@@ -2,6 +2,10 @@ import weaponpage from "../media/background/background_dekstop11.jpg"
 import Eskill from "../media/talent/skill_e.png"
 import Qskill from "../media/talent/skill_burst.png"
 import swap from "../media/talent/swap_character.png"
+import raiden_EC from "../media/raiden_electrocharge.mp4";
+import raiden_OV from "../media/raiden_overload.mp4";
+import raiden_H from "../media/raiden_hijau.mp4";
+import raiden_HC from "../media/raiden_hyper_carry.mp4";
 import introVideo from "../media/guide_video.mp4";
 function Guide(){
     return(
@@ -15,8 +19,8 @@ function Guide(){
             <div className="absolute top-0 left-0 w-full h-50 bg-gradient-to-t from-transparent to-[#310056]"></div>
             <div className="absolute bottom-0 left-0 w-full h-50 bg-gradient-to-b from-transparent to-[#310056]"></div>
             <div className="absolute inset-0 z-10 flex flex-col gap-20 py-20 px-10">
-                <div className="text-6xl mt-20" data-aos="fade-up" data-aos-duration="1200"><h1>Guide Raiden Shogun Gameplay & Rotation</h1></div>
-                <div className="flex flex-row items-center justify-between">
+                <div className="text-6xl mt-20 font-genshin" data-aos="fade-up" data-aos-duration="1200"><h1>Guide Raiden Shogun Gameplay & Rotation</h1></div>
+                <div className="flex flex-row items-center justify-between bg-black/40 backdrop-blur-md p-6 rounded-xl">
                     <div className="flex flex-col">
                         <div className="flex flex-row items-center  gap-7" data-aos="fade-up" data-aos-duration="1300">
                             <img src={Eskill} alt="elemental" className="w-20"/>
@@ -39,8 +43,28 @@ function Guide(){
                             <h1>Back to Raiden & Burst</h1>
                         </div>
                     </div>
-                    <video src={introVideo} controls className="w-1/2 rounded-2xl" data-aos="fade-up" data-aos-duration="1300">
-                    </video>
+                    <div className="flex flex-col items-center gap-4">
+                        <div className="flex flex-row items-center justify-center gap-4">
+                            <div className="flex flex-col" data-aos="fade-up" data-aos-duration="1300">
+                                <p>Gameplay Raiden Overload</p>
+                                <video src={raiden_OV} controls className="w-95 rounded-2xl"></video>
+                            </div>
+                            <div className="flex flex-col" data-aos="fade-up" data-aos-duration="1300">
+                                <p>Gameplay Raiden Hyper Carry</p>
+                                <video src={raiden_HC} controls className="w-95 rounded-2xl"></video>
+                            </div>
+                        </div>
+                        <div className="flex flex-row items-center justify-center gap-4">
+                            <div className="flex flex-col" data-aos="fade-up" data-aos-duration="1300">
+                                <p>Gameplay Lunar Electro charge</p>
+                                <video src={raiden_EC} controls className="w-95 rounded-2xl"></video>
+                            </div>
+                            <div className="flex flex-col" data-aos="fade-up" data-aos-duration="1300">
+                                <p>Gameplay Raiden Hijau (Full Elemental Mastery)</p>
+                                <video src={raiden_H} controls className="w-95 rounded-2xl"></video>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -56,15 +80,15 @@ function Guide(){
                     <h1>Elemental skill</h1>
                 </div>
                 <div className="flex flex-row items-center gap-10" data-aos="fade-up" data-aos-duration="1600">
-                    <img src={swap} alt="elemental" className="w-20"/>
+                    <img src={swap} alt="elemental" className="w-20 animate-spin" style={{ animationDuration: "2s" }}/>
                     <h1>Swap Character 1 + Burst + Skill</h1>
                 </div>
                 <div className="flex flex-row items-center gap-10" data-aos="fade-up" data-aos-duration="1800">
-                    <img src={swap} alt="elemental" className="w-20"/>
+                    <img src={swap} alt="elemental" className="w-20 animate-spin" style={{ animationDuration: "2s" }}/>
                     <h1>Swap Character 2 + Burst + Skill</h1>
                 </div>
                 <div className="flex flex-row items-center gap-10" data-aos="fade-up" data-aos-duration="2000">
-                    <img src={swap} alt="elemental" className="w-20"/>
+                    <img src={swap} alt="elemental" className="w-20 animate-spin" style={{ animationDuration: "2s" }}/>
                     <h1>Swap Character 3 + Burst + Skill</h1>
                 </div>
                 <div className="flex flex-row items-center gap-10" data-aos="fade-up" data-aos-duration="2200">
