@@ -2,6 +2,7 @@ import background3 from "../media/background/background_dekstop3.png"
 import electroculus3 from "../../public/assets/electroculus.png"
 import inazuma from "../media/background/inazuma_background.png"
 import japan from "../media/background/japan_background.jpg"
+import { Link } from "react-router-dom";
 function Region() {
     return(
     <>
@@ -28,26 +29,26 @@ function Region() {
                             <p className="text-[10px] text-right mb-4" data-aos="fade-left" data-aos-duration="2000">Arc Inazuma</p>
                         </div>
                         <div className="flex flex-row gap-2 justify-end" data-aos="fade-left" data-aos-duration="2000">
-                            <a href="https://genshin-impact.fandom.com/wiki/The_Immovable_God_and_the_Eternal_Euthymia" target="_blank" rel="noopener noreferrer">
+                            <Link to="/Act1">
                                 <div className="flex items-center relative w-45 h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px]">
                                     Act I: "The Immovable God and the Eternal Euthymia"
                                 </div>
-                            </a>
-                            <a href="https://genshin-impact.fandom.com/wiki/Stillness,_the_Sublimation_of_Shadow" target="_blank" rel="noopener noreferrer">
+                            </Link>
+                            <Link to="/Act2">
                                 <div className="flex items-center relative w-45 h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px]">
                                     Act II: "Stillness, the Sublimation of Shadow"
                                 </div>
-                            </a>
-                            <a href="https://genshin-impact.fandom.com/wiki/Omnipresence_Over_Mortals" target="_blank" rel="noopener noreferrer">
+                            </Link>
+                            <Link to="/Act3">
                                 <div className="flex items-center relative w-45 h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px]">
                                     Act III: "Omnipresence Over Mortals"
                                 </div>
-                            </a>
-                            <a href="https://genshin-impact.fandom.com/wiki/Requiem_of_the_Echoing_Depths" target="_blank" rel="noopener noreferrer">
+                            </Link>
+                            <Link to="/Act4">
                                 <div className="flex items-center relative w-45 h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px]">
                                     Act IV: "Requiem of the Echoing Depths"
                                 </div>
-                            </a>
+                            </Link>
                         </div>
                     </div>                                                     
                 </div>
@@ -70,36 +71,36 @@ function Region() {
                         <div className="w-3 h-3 rounded-full bg-white"></div>
                         <div className="w-3 h-3 rounded-full bg-white"></div>
                     </div>
-                    <p className="text-[13px] opacity-80 bg-black/60 text-white px-4 py-4 rounded-lg" data-aos="fade-right" data-aos-duration="1400">
+                    <p className="text-[13px] opacity-80 bg-black/60 text-white px-4 py-4 rounded-lg text-justify" data-aos="fade-right" data-aos-duration="1400">
                         Inazuma paling umum merujuk pada negara kepulauan fiktif bertema Jepang di game Genshin Impact yang dipimpin 
                         oleh Electro Archon, Raiden Shogun, dan dirilis pada versi 2.0. Selain itu, istilah ini berarti "petir" 
                         dalam bahasa Jepang dan juga merupakan nama kapal perusak Angkatan Laut Kekaisaran Jepang, karakter di 
                         One Piece, serta waralaba Inazuma Eleven
                     </p>
-                    <h1 className="text-[12px] text-white">Arc Inazuma :    </h1>
-                    <div className="flex flex-row gap-2 justify-end" data-aos="fade-left" data-aos-duration="2000">
-                        <a href="https://genshin-impact.fandom.com/wiki/The_Immovable_God_and_the_Eternal_Euthymia" target="_blank" rel="noopener noreferrer">
-                            <div className="flex items-center relative w-45 h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px]">
+                    <h1 className="text-[12px] text-white" data-aos="fade-left" data-aos-duration="1900">Arc Inazuma :</h1>
+                    <div className="flex flex-row gap-2 justify-center" data-aos="fade-left" data-aos-duration="2000">
+                        <Link to="/Act1">
+                            <div className="flex items-center relative w-40 h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px]">
                                 Act I: "The Immovable God and the Eternal Euthymia"
                             </div>
-                        </a>
-                        <a href="https://genshin-impact.fandom.com/wiki/Stillness,_the_Sublimation_of_Shadow" target="_blank" rel="noopener noreferrer">
-                            <div className="flex items-center relative w-45 h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px]">
+                        </Link>
+                        <Link to="/Act2">
+                            <div className="flex items-center relative w-40 h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px]">
                                 Act II: "Stillness, the Sublimation of Shadow"
                             </div>
-                        </a>
+                        </Link>
                     </div>
-                    <div className="flex flex-row gap-2 justify-end" data-aos="fade-left" data-aos-duration="2000">
-                        <a href="https://genshin-impact.fandom.com/wiki/Omnipresence_Over_Mortals" target="_blank" rel="noopener noreferrer">
-                            <div className="flex items-center relative w-45 h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px]">
+                    <div className="flex flex-row gap-2 justify-center" data-aos="fade-left" data-aos-duration="2000">
+                        <Link to="/Act3">
+                            <div className="flex items-center relative w-40 h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px]">
                                 Act III: "Omnipresence Over Mortals"
                             </div>
-                        </a>
-                        <a href="https://genshin-impact.fandom.com/wiki/Requiem_of_the_Echoing_Depths" target="_blank" rel="noopener noreferrer">
-                            <div className="flex items-center relative w-45 h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px]">
+                        </Link>
+                        <Link to="/Act4">
+                            <div className="flex items-center relative w-40 h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px]">
                                 Act IV: "Requiem of the Echoing Depths"
                             </div>
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>

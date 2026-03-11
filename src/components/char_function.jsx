@@ -157,6 +157,8 @@ function Char_function(){
         </div>
     </div>
     </div>
+
+    
     {/* ---versi mobile--- */}
     <div className="flex flex-row justify-center md:hidden font-genshin">
         {/* ---page kiri--- */}

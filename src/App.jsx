@@ -16,8 +16,17 @@ import Guide from "./pages/11_guide_page";
 import Team from "./pages/12_team_page";
 import Footer from "./pages/13_footer";
 
-import TheCatchPage from "./components/2_the_catch_page";
 import EngulfingPage from "./components/1_engulfing_page";
+import TheCatchPage from "./components/2_the_catch_page";
+import Anneyatco from "./components/va_anne_yatco";
+import Miyukisawashiro from "./components/va_miyuki_sawashiro";
+import Juhuahua from "./components/va_juhuahua";
+import Parkjiyoon from "./components/va_park_ji-yoon";
+import Act1 from "./components/act1";
+import Act2 from "./components/act2";
+import Act3 from "./components/act3";
+import Act4 from "./components/act4";
+import About_yaemiko from "./components/about_yaemiko";
 
 
 function MainPage() {
@@ -45,13 +54,20 @@ function MainPage() {
 function App() {
   return (
     <>
-      
-
       <Routes>
         <Route path="/" element={<MainPage />} />
 
         <Route path="/the_catch" element={<TheCatchPage />} />
         <Route path="/sign" element={<EngulfingPage />} />
+        <Route path="/Anneyatco" element={<Anneyatco />} />
+        <Route path="/Miyukisawashiro" element={<Miyukisawashiro />} />
+        <Route path="/Juhuahua" element={<Juhuahua />} />
+        <Route path="/Parkjiyoon" element={<Parkjiyoon />} />
+        <Route path="/Act1" element={<Act1 />} />
+        <Route path="/Act2" element={<Act2 />} />
+        <Route path="/Act3" element={<Act3 />} />
+        <Route path="/Act4" element={<Act4 />} />
+        <Route path="/About_yaemiko" element={<About_yaemiko />} />
       </Routes>
     </>
   );

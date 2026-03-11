@@ -18,7 +18,7 @@ function Home() {
                 Archon | Inazuma
               </h1>
               <div className="h-[2px] w-[150px] sm:w-80 bg-white animate__animated animate__fadeInLeft animate__delay-2s"></div>
-              <p className="text-base/loose mb-6 opacity-75 animate__animated animate__fadeInLeft animate__delay-3s">
+              <p className="text-base/loose mb-6 opacity-75 animate__animated animate__fadeInLeft animate__delay-3s text-justify">
                 Archon Electro yang bersemayam di Inazuma dalam game Genshin Impact.
                 Nama aslinya adalah Raiden Ei, yang menciptakan boneka bernama Raiden
                 Shogun untuk memerintah Inazuma sementara dia bermeditasi di Plane of
@@ -67,7 +67,7 @@ function Home() {
               </h1>
             </div>
             <div className="h-[2px] w-full mx-auto bg-white animate__animated animate__fadeInLeft animate__delay-2s"></div>
-            <h1 className="text-[15px] animate__animated animate__fadeInLeft animate__delay-3s">
+            <h1 className="text-[15px] animate__animated animate__fadeInLeft animate__delay-3s text-justify">
               Archon Electro yang bersemayam di Inazuma dalam game Genshin Impact.
               Nama aslinya adalah Raiden Ei, yang menciptakan boneka bernama Raiden
               Shogun untuk memerintah Inazuma sementara dia bermeditasi di Plane of

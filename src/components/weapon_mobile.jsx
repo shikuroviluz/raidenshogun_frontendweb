@@ -21,7 +21,7 @@ function Weapon (){
                     <img src={sign} alt="sign" className="absolute w-30"/>
                     <p className="absolute mt-31 text-black text-[13px]">The catch</p>
                 </div>
-            </div>        
+            </div>       
         </Link>
     </div>
     </>

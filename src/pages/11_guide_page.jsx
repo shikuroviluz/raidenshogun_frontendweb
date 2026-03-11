@@ -2,11 +2,6 @@ import weaponpage from "../media/background/background_dekstop11.jpg"
 import Eskill from "../media/talent/skill_e.png"
 import Qskill from "../media/talent/skill_burst.png"
 import swap from "../media/talent/swap_character.png"
-import raiden_EC from "../media/raiden_electrocharge.mp4";
-import raiden_OV from "../media/raiden_overload.mp4";
-import raiden_H from "../media/raiden_hijau.mp4";
-import raiden_HC from "../media/raiden_hyper_carry.mp4";
-import introVideo from "../media/guide_video.mp4";
 function Guide(){
     return(
     <>
@@ -23,23 +18,23 @@ function Guide(){
                 <div className="flex flex-row items-center justify-between bg-black/40 backdrop-blur-md p-6 rounded-xl">
                     <div className="flex flex-col">
                         <div className="flex flex-row items-center  gap-7" data-aos="fade-up" data-aos-duration="1300">
-                            <img src={Eskill} alt="elemental" className="w-20"/>
+                            <img src={Eskill} alt="elemental" className="w-15"/>
                             <h1>Elemental skill</h1>
                         </div>
                         <div className="flex flex-row items-center  gap-7" data-aos="fade-up" data-aos-duration="1400">
-                            <img src={swap} alt="elemental" className="w-20 animate-spin" style={{ animationDuration: "2s" }}/>
+                            <img src={swap} alt="elemental" className="w-15 animate-spin" style={{ animationDuration: "2s" }}/>
                             <h1>Swap Character 1 + Burst + Skill</h1>
                         </div>
                         <div className="flex flex-row items-center  gap-7" data-aos="fade-up" data-aos-duration="1500">
-                            <img src={swap} alt="elemental" className="w-20 animate-spin" style={{ animationDuration: "2s" }}/>
+                            <img src={swap} alt="elemental" className="w-15 animate-spin" style={{ animationDuration: "2s" }}/>
                             <h1>Swap Character 2 + Burst + Skill</h1>
                         </div>
                         <div className="flex flex-row items-center  gap-7" data-aos="fade-up" data-aos-duration="1600">
-                            <img src={swap} alt="elemental" className="w-20 animate-spin" style={{ animationDuration: "2s" }}/>
+                            <img src={swap} alt="elemental" className="w-15 animate-spin" style={{ animationDuration: "2s" }}/>
                             <h1>Swap Character 2 + Burst + Skill</h1>
                         </div>
                         <div className="flex flex-row items-center  gap-7" data-aos="fade-up" data-aos-duration="1700">
-                            <img src={Qskill} alt="elemental" className="w-20"/>
+                            <img src={Qskill} alt="elemental" className="w-15"/>
                             <h1>Back to Raiden & Burst</h1>
                         </div>
                     </div>
@@ -47,21 +42,21 @@ function Guide(){
                         <div className="flex flex-row items-center justify-center gap-4">
                             <div className="flex flex-col" data-aos="fade-up" data-aos-duration="1300">
                                 <p>Gameplay Raiden Overload</p>
-                                <video src={raiden_OV} controls className="w-95 rounded-2xl"></video>
+                                <iframe className="w-95 h-50 rounded-2xl" src="https://www.youtube.com/embed/ZXq4Wv-gm70" allowFullScreen></iframe>
                             </div>
                             <div className="flex flex-col" data-aos="fade-up" data-aos-duration="1300">
                                 <p>Gameplay Raiden Hyper Carry</p>
-                                <video src={raiden_HC} controls className="w-95 rounded-2xl"></video>
+                                <iframe className="w-95 h-50 rounded-2xl" src="https://www.youtube.com/embed/K-c5umLHgT8" allowFullScreen></iframe>
                             </div>
                         </div>
                         <div className="flex flex-row items-center justify-center gap-4">
                             <div className="flex flex-col" data-aos="fade-up" data-aos-duration="1300">
                                 <p>Gameplay Lunar Electro charge</p>
-                                <video src={raiden_EC} controls className="w-95 rounded-2xl"></video>
+                                <iframe className="w-95 h-50 rounded-2xl" src="https://www.youtube.com/embed/pcK7CcA_DBk" allowFullScreen></iframe>
                             </div>
                             <div className="flex flex-col" data-aos="fade-up" data-aos-duration="1300">
                                 <p>Gameplay Raiden Hijau (Full Elemental Mastery)</p>
-                                <video src={raiden_H} controls className="w-95 rounded-2xl"></video>
+                                <iframe className="w-95 h-50 rounded-2xl" src="https://www.youtube.com/embed/kD1AK5iXIcQ" allowFullScreen></iframe>
                             </div>
                         </div>
                     </div>
@@ -74,30 +69,36 @@ function Guide(){
         <div className="flex flex-col justify-center ">
             <h1 className="text-3xl text-center my-2" data-aos="fade-up" data-aos-duration="1000">Guide Raiden Shogun</h1>
             <h1 className="text-[15px] text-center" data-aos="fade-up" data-aos-duration="1200">Gameplay & Rotation</h1>
-            <div className="p-2">                
+            <div className="p-2 mx-auto">                
                 <div className="flex flex-row items-center gap-10" data-aos="fade-up" data-aos-duration="1400">
-                    <img src={Eskill} alt="elemental" className="w-20"/>
+                    <img src={Eskill} alt="elemental" className="w-10"/>
                     <h1>Elemental skill</h1>
                 </div>
                 <div className="flex flex-row items-center gap-10" data-aos="fade-up" data-aos-duration="1600">
-                    <img src={swap} alt="elemental" className="w-20 animate-spin" style={{ animationDuration: "2s" }}/>
+                    <img src={swap} alt="elemental" className="w-10 animate-spin" style={{ animationDuration: "2s" }}/>
                     <h1>Swap Character 1 + Burst + Skill</h1>
                 </div>
                 <div className="flex flex-row items-center gap-10" data-aos="fade-up" data-aos-duration="1800">
-                    <img src={swap} alt="elemental" className="w-20 animate-spin" style={{ animationDuration: "2s" }}/>
+                    <img src={swap} alt="elemental" className="w-10 animate-spin" style={{ animationDuration: "2s" }}/>
                     <h1>Swap Character 2 + Burst + Skill</h1>
                 </div>
                 <div className="flex flex-row items-center gap-10" data-aos="fade-up" data-aos-duration="2000">
-                    <img src={swap} alt="elemental" className="w-20 animate-spin" style={{ animationDuration: "2s" }}/>
+                    <img src={swap} alt="elemental" className="w-10 animate-spin" style={{ animationDuration: "2s" }}/>
                     <h1>Swap Character 3 + Burst + Skill</h1>
                 </div>
                 <div className="flex flex-row items-center gap-10" data-aos="fade-up" data-aos-duration="2200">
-                    <img src={Qskill} alt="elemental" className="w-20"/>
+                    <img src={Qskill} alt="elemental" className="w-10"/>
                     <h1>Back to Raiden & Burst</h1>
                 </div>
             </div>
-            <div className="flex flex-row justify-center items-center">
-                <video src={introVideo} controls className="pt-10 w-95 rounded-2xl" data-aos="fade-up" data-aos-duration="2400"></video>
+            <br />
+            <div className="font-genshin" data-aos="fade-up" data-aos-duration="2300"><h1 className="text-center">gameplay preview</h1></div>
+            <br />
+            <div className="flex flex-col gap-4 justify-center items-center" data-aos="fade-up" data-aos-duration="2400">
+                <iframe className="w-80 h-45 rounded-2xl" src="https://www.youtube.com/embed/ZXq4Wv-gm70" allowFullScreen></iframe>
+                <iframe className="w-80 h-45 rounded-2xl" src="https://www.youtube.com/embed/K-c5umLHgT8" allowFullScreen></iframe>
+                <iframe className="w-80 h-45 rounded-2xl" src="https://www.youtube.com/embed/pcK7CcA_DBk" allowFullScreen></iframe>
+                <iframe className="w-80 h-45 rounded-2xl" src="https://www.youtube.com/embed/kD1AK5iXIcQ" allowFullScreen></iframe>
             </div>
         </div>
     </div>

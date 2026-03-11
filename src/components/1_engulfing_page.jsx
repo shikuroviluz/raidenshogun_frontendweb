@@ -32,7 +32,7 @@ function ENGpage(){
                         </div>
                     </div>
                     <div className="pt-51"></div>
-                    <div className="p-2">
+                    <div className="px-2 pt-5">
                         <div className="w-15 h-7 bg-[#525354] rounded-xl text-[15px] flex items-center justify-center">Lv 90</div>
                     </div>                    
                     <p className="text-[13px] px-2 pb-2 text-[#525354]">

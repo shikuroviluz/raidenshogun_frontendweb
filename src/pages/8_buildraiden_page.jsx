@@ -31,15 +31,15 @@ function Build(){
                         <div className="grid grid-cols-3 divide-white" data-aos="zoom-in" data-aos-duration="1200">
                         {/* {baris 1} */}
                             <div className="flex flex-col items-center justify-center p-3 border-2 border-white">
-                                <img src={sands} alt="sands" className="w-15 rounded-2xl"/>
+                                <img src={sands} alt="sands" className="w-10 rounded-2xl"/>
                                 <h1 className="text-[20px] ">sands</h1>
                             </div>
                             <div className="flex flex-col items-center justify-center p-3 border-2 border-white">
-                                <img src={goblet} alt="goblet" className="w-15 rounded-2xl"/>
+                                <img src={goblet} alt="goblet" className="w-10 rounded-2xl"/>
                                 <h1 className="text-[20px]">goblet</h1>
                             </div>
                             <div className="flex flex-col items-center justify-center p-3 border-2 border-white">
-                                <img src={circlet} alt="circlet" className="w-15 rounded-2xl"/>
+                                <img src={circlet} alt="circlet" className="w-10 rounded-2xl"/>
                                 <h1 className="text-[20px]">circlet</h1>
                             </div>
                         {/* {baris 2} */}
@@ -94,21 +94,21 @@ function Build(){
                         <div className="grid grid-cols-2 divide-white" data-aos="zoom-in" data-aos-duration="1200">
                         {/* {baris 1} */}
                             <div className="flex flex-col items-center justify-center p-3 border-2 border-white">
-                                <img src={burstQ} alt="sands" className="w-20 rounded-2xl"/>
+                                <img src={burstQ} alt="sands" className="w-10 rounded-2xl"/>
                             </div>
                             <div className="flex flex-col items-center justify-center p-3 border-2 border-white">
                                 <h1 className="text-[13px]">Burst</h1>
                                 <h1 className="text-[13px]">First Priority</h1>
                             </div>
                             <div className="flex flex-col items-center justify-center p-3 border-2 border-white">
-                                <img src={skillE} alt="goblet" className="w-23 rounded-2xl"/>
+                                <img src={skillE} alt="goblet" className="w-13 rounded-2xl"/>
                             </div>
                             <div className="flex flex-col items-center justify-center p-3 border-2 border-white">
                                 <h1 className="text-[13px]">Skill</h1>
                                 <h1 className="text-[13px]">Second Priority</h1>
                             </div>
                             <div className="flex flex-col items-center justify-center p-3 border-2 border-white">
-                                <img src={baseatk} alt="circlet" className="w-20 rounded-2xl"/>
+                                <img src={baseatk} alt="circlet" className="w-10 rounded-2xl"/>
                             </div>
                             <div className="flex flex-col items-center justify-center p-3 border-2 border-white">
                                 <h1 className="text-[13px]">Base Atk</h1>
@@ -122,12 +122,12 @@ function Build(){
     </div>
     {/* ---tampilan mobile--- */}
     <div className="md:hidden">
-        <div className="flex flex-col items-center my-10 px-2">
-            <h1 className="text-3xl mb-5 font-genshin" data-aos="fade-up" data-aos-duration="1000">Build Raiden Shogun</h1>
-            <MobileArte/>
-            <MobileStat/>
-            <MobileTalent/>
-            <h1 className="text-3xl mb-5" data-aos="fade-up" data-aos-duration="1600">Best Weapon</h1>
+        <div className="flex flex-col items-center my-10 px-6">
+            <h1 className="text-3xl mb-5 font-genshin" data-aos="fade-in" data-aos-duration="1200">Build Raiden Shogun</h1>
+            <div data-aos="fade-in" data-aos-duration="1400"><MobileArte/></div>
+            <div data-aos="fade-in" data-aos-duration="1400"><MobileStat/></div>
+            <div data-aos="fade-in" data-aos-duration="1400"><MobileTalent/></div>
+            <h1 className="text-3xl mb-5 font-genshin" data-aos="fade-up" data-aos-duration="1600">Best Weapon</h1>
             <div className="flex flex-col items-center" data-aos="fade-up" data-aos-duration="2000">
                 <Weapon/>
             </div>

@@ -4,7 +4,7 @@ import emblem from "../media/artefact/emblem_of_severed_fate.png"
 function Mobile_artefact(){
     return(
     <>
-    <h1 className="text-2xl mb-5 font-genshin">Best Artefact</h1>
+    <h1 className="text-2xl mb-5 font-genshin text-center">Best Artefact</h1>
     <div className="flex flex-col justify-center items-center mb-5">
         <div className="grid grid-cols-3 divide-white border-2 text-center">
         {/* baris 1 */}

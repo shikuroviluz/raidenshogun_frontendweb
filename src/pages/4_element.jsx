@@ -17,7 +17,7 @@ function Element() {
                             <div className="text-left text-4xl font-genshin" data-aos="fade-right" data-aos-duration="1200">Element</div>
                             <div className="text-left text-2xl mb-4 font-genshin" data-aos="fade-right" data-aos-duration="1300">Gnosis Electro</div>
                             <div className="h-[2px] md:w-130 sm:w-80 bg-white mb-4 mr-auto" data-aos="fade-right" data-aos-duration="1400"></div>
-                            <p className="text-[16px] opacity-90 text-left mb-4" data-aos="fade-right" data-aos-duration="1500">
+                            <p className="text-[16px] opacity-90 mb-4 text-justify" data-aos="fade-right" data-aos-duration="1500">
                                 Gnosis Electro merupakan Gnosis milik Raiden Makoto (archon sebelumnya) yang berpindah 
                                 kepemilikan sejak Raiden Ei naik takhta menjadi archon untuk menggantikan Raiden Makoto 
                                 Yang gugur saat perang archon, walaupun dulunya di pegang oleh kakaknya, Raiden Ei tidak 
@@ -47,7 +47,7 @@ function Element() {
                         <div className="w-3 h-3 rounded-full bg-white"></div>
                     </div>
                     <div className="text-left text-2xl" data-aos="fade-right" data-aos-duration="1800">Gnosis Electro</div>
-                    <p className="text-[16px] opacity-90 text-left mb-4" data-aos="fade-right" data-aos-duration="2000">
+                    <p className="text-[16px] opacity-90 mb-4 text-justify" data-aos="fade-right" data-aos-duration="2000">
                         Gnosis Electro merupakan Gnosis milik Raiden Makoto (archon sebelumnya) yang berpindah kepemilikan 
                         sejak Raiden Ei naik takhta menjadi archon untuk menggantikan Raiden Makoto Yang gugur saat perang 
                         archon, walaupun dulunya di pegang oleh kakaknya, Raiden Ei tidak mau memegang Gnosis ini dan lebih 

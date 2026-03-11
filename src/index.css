@@ -1,12 +1,83 @@
 @import "tailwindcss";
 
 @font-face {
-  font-family: 'genshinfont';
-  src: url('/assets/genshinfont.ttf') format('truetype');
+  font-family: "genshinfont";
+  src: url("/assets/genshinfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
-
 }
+
 .font-genshin {
-font-family: genshinfont, sans-serif;
+  font-family: genshinfont, sans-serif;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+/* ukuran slide default */
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transform: scale(0.75);
+  opacity: 0.4;
+
+  transition: transform 0.6s ease, opacity 0.6s ease;
+}
+
+/* slide aktif (tengah) */
+.swiper-slide-active {
+  transform: scale(1.15);
+  opacity: 1;
+}
+
+/* slide sebelah aktif */
+.swiper-slide-prev,
+.swiper-slide-next {
+  transform: scale(0.9);
+  opacity: 0.7;
+}
+
+/* ukuran poster */
+.poster {
+  width: 110px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.poster_mobile {
+  width: 90px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+/* gradient kiri kanan */
+.slider-wrapper {
+  position: relative;
+}
+
+.slider-wrapper::before,
+.slider-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 120px;
+  height: 100%;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.slider-wrapper::before {
+  left: 0;
+  background: linear-gradient(to right, black, transparent);
+}
+
+.slider-wrapper::after {
+  right: 0;
+  background: linear-gradient(to left, black, transparent);
 }

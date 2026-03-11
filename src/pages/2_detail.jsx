@@ -2,6 +2,11 @@ import background2 from "../media/background/background_dekstop2.jpg";
 import backgroundmobile from "../media/mobile_card_page/raidencard.png";
 import logoelectro from "../../public/assets/electroculus.png";
 import chibichar from "../media/chibi_character/chibi_raiden1.png";
+import china from "../media/bendera/china_flag.jpg";
+import japan from "../media/bendera/japan_flag.jpg";
+import english from "../media/bendera/english_flag.jpg";
+import korea from "../media/bendera/korea_flag.jpg";
+import { Link } from "react-router-dom";
 
 function Detail() {
   return (
@@ -16,7 +21,7 @@ function Detail() {
               <div className="text-white max-w-xl flex flex-col">
                 <h1 className="text-4xl mb-4 font-genshin" data-aos="fade-right" data-aos-duration="1500"> Raiden Ei 雷電英 </h1>
                 <div className="h-[2px] w-150 sm:w-80 bg-white mb-4" data-aos="fade-right" data-aos-duration="1550"></div>
-                <p className="text-base/loose opacity-80" data-aos="fade-right" data-aos-duration="1600">
+                <p className="text-base/loose opacity-80 text-justify" data-aos="fade-right" data-aos-duration="1600">
                   perwujudan kekuatan petir yang merupakan penguasa tertinggi
                   Inazuma dan Dewa Keabadian, yang sebenarnya terdiri dari dua
                   entitas: Raiden Ei (Archon asli) dan Shogun (boneka mekanik
@@ -27,26 +32,30 @@ function Detail() {
                     Voice Actor :
                   </h1>
                   <div className="flex gap-3 mx-auto">
-                    <a href="https://www.imdb.com/name/nm3304361/" target="_blank" rel="noopener noreferrer">
-                      <div className="flex items-center relative w-30 h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px]">
+                    <Link to="/Anneyatco">
+                      <div className="flex items-center relative w-30 h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl text-[9px]">
+                        <img src={english} className="absolute inset-0 w-full h-full object-cover opacity-0 hover:opacity-100 rounded-2xl transition duration-300"/>
                         EN : Anne Yatco
                       </div>
-                    </a>
-                    <a href="https://en.wikipedia.org/wiki/Miyuki_Sawashiro" target="_blank" rel="noopener noreferrer">
-                      <div className="flex items-center relative w-30 h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px]">
+                    </Link>
+                    <Link to="/Miyukisawashiro">
+                      <div className="flex items-center relative w-30 h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl text-[9px]">
+                        <img src={japan} className="absolute inset-0 w-full h-full object-cover opacity-0 hover:opacity-100 rounded-2xl transition duration-300"/>
                         JP : Miyuki Sawashiro
                       </div>
-                    </a>
-                    <a href="https://zh.moegirl.org.cn/%E8%8F%8A%E8%8A%B1%E8%8A%B1" target="_blank" rel="noopener noreferrer">
-                      <div className="flex items-center relative w-30 h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px]">
-                        CH : Juhuahua
+                    </Link>
+                    <Link to="/Juhuahua">
+                      <div className="flex items-center relative w-30 h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl text-[9px]">
+                        <img src={china} className="absolute inset-0 w-full h-full object-cover opacity-0 hover:opacity-100 rounded-2xl transition duration-300"/>
+                        CN : Juhuahua
                       </div>
-                    </a>
-                    <a href="https://ko.wikipedia.org/wiki/%EB%B0%95%EC%A7%80%EC%9C%A4_(%EC%84%B1%EC%9A%B0)" target="_blank" rel="noopener noreferrer">
-                      <div className="flex items-center relative w-30 h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px]">
+                    </Link>
+                    <Link to="/Parkjiyoon">
+                      <div className="flex items-center relative w-30 h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl text-[9px]">
+                        <img src={korea} className="absolute inset-0 w-full h-full object-cover opacity-0 hover:opacity-100 rounded-2xl transition duration-300"/>
                         KR : Park Ji-yoon
                       </div>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -83,7 +92,7 @@ function Detail() {
             </div>
             <div className="h-[2px] w-full sm:w-full bg-white mb-3 ml-auto" data-aos="fade-right" data-aos-duration="1400"></div>
             <div className="relative inline-block rounded-lg" data-aos="fade-right" data-aos-duration="1600">
-              <p className="text-[13px] opacity-80 bg-black/60 text-white px-4 py-4 rounded-lg">
+              <p className="text-[13px] opacity-80 bg-black/60 text-white px-4 py-4 rounded-lg text-justify">
                 perwujudan kekuatan petir yang merupakan penguasa tertinggi
                 Inazuma dan Dewa Keabadian, yang sebenarnya terdiri dari dua
                 entitas: Raiden Ei (Archon asli) dan Shogun (boneka mekanik
@@ -95,28 +104,32 @@ function Detail() {
                 Voice Actor :
               </h1>
               <div className="flex flex-row gap-3 p-2" data-aos="fade-right" data-aos-duration="2000">
-                <a href="https://www.imdb.com/name/nm3304361/" target="_blank" rel="noopener noreferrer">
+                <Link to="/Anneyatco">
                   <div className="flex items-center relative w-30 h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px]">
+                    <img src={english} className="absolute inset-0 w-full h-full object-cover opacity-0 hover:opacity-100 rounded-2xl transition duration-300"/>
                     EN : Anne Yatco
                   </div>
-                </a>
-                <a href="https://en.wikipedia.org/wiki/Miyuki_Sawashiro" target="_blank" rel="noopener noreferrer">
+                </Link>
+                <Link to="/Miyukisawashiro">
                   <div className="flex items-center relative w-30 h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px]">
+                    <img src={japan} className="absolute inset-0 w-full h-full object-cover opacity-0 hover:opacity-100 rounded-2xl transition duration-300"/>
                     JP : Miyuki Sawashiro
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="flex flex-row gap-3 p-2" data-aos="fade-right" data-aos-duration="2200">
-                <a href="https://zh.moegirl.org.cn/%E8%8F%8A%E8%8A%B1%E8%8A%B1" target="_blank" rel="noopener noreferrer">
+                <Link to="/Juhuahua">
                   <div className="flex items-center relative w-30 h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px]">
-                    CH : Juhuahua
+                    <img src={china} className="absolute inset-0 w-full h-full object-cover opacity-0 hover:opacity-100 rounded-2xl transition duration-300"/>
+                    CN : Juhuahua
                   </div>
-                </a>
-                <a href="https://ko.wikipedia.org/wiki/%EB%B0%95%EC%A7%80%EC%9C%A4_(%EC%84%B1%EC%9A%B0)" target="_blank" rel="noopener noreferrer">
+                </Link>
+                <Link to="/Parkjiyoon">
                   <div className="flex items-center relative w-30 h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px]">
+                    <img src={korea} className="absolute inset-0 w-full h-full object-cover opacity-0 hover:opacity-100 rounded-2xl transition duration-300"/>
                     KR : Park Ji-yoon
                   </div>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
