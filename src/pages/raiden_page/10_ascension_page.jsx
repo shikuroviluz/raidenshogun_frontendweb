@@ -1,5 +1,5 @@
-import weaponpage from "../media/background/background_dekstop10.jpg"
-import {Material} from "../data"
+import weaponpage from "../../media/background/background_dekstop10.jpg"
+import {Material} from "../../data"
 function Ascension(){
     return(
     <>

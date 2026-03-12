@@ -1,7 +1,7 @@
-import background3 from "../media/background/background_dekstop3.png"
-import electroculus3 from "../../public/assets/electroculus.png"
-import inazuma from "../media/background/inazuma_background.png"
-import japan from "../media/background/japan_background.jpg"
+import background3 from "../../media/background/background_dekstop3.png"
+import electroculus3 from "../../../public/assets/electroculus.png"
+import inazuma from "../../media/background/inazuma_background.png"
+import japan from "../../media/background/japan_background.jpg"
 import { Link } from "react-router-dom";
 function Region() {
     return(
@@ -29,22 +29,22 @@ function Region() {
                             <p className="text-[10px] text-right mb-4" data-aos="fade-left" data-aos-duration="2000">Arc Inazuma</p>
                         </div>
                         <div className="flex flex-row gap-2 justify-end" data-aos="fade-left" data-aos-duration="2000">
-                            <Link to="/Act1">
+                            <Link to="Act1">
                                 <div className="flex items-center relative w-45 h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px]">
                                     Act I: "The Immovable God and the Eternal Euthymia"
                                 </div>
                             </Link>
-                            <Link to="/Act2">
+                            <Link to="Act2">
                                 <div className="flex items-center relative w-45 h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px]">
                                     Act II: "Stillness, the Sublimation of Shadow"
                                 </div>
                             </Link>
-                            <Link to="/Act3">
+                            <Link to="Act3">
                                 <div className="flex items-center relative w-45 h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px]">
                                     Act III: "Omnipresence Over Mortals"
                                 </div>
                             </Link>
-                            <Link to="/Act4">
+                            <Link to="Act4">
                                 <div className="flex items-center relative w-45 h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px]">
                                     Act IV: "Requiem of the Echoing Depths"
                                 </div>
@@ -79,24 +79,24 @@ function Region() {
                     </p>
                     <h1 className="text-[12px] text-white" data-aos="fade-left" data-aos-duration="1900">Arc Inazuma :</h1>
                     <div className="flex flex-row gap-2 justify-center" data-aos="fade-left" data-aos-duration="2000">
-                        <Link to="/Act1">
+                        <Link to="Act1">
                             <div className="flex items-center relative w-40 h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px]">
                                 Act I: "The Immovable God and the Eternal Euthymia"
                             </div>
                         </Link>
-                        <Link to="/Act2">
+                        <Link to="Act2">
                             <div className="flex items-center relative w-40 h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px]">
                                 Act II: "Stillness, the Sublimation of Shadow"
                             </div>
                         </Link>
                     </div>
                     <div className="flex flex-row gap-2 justify-center" data-aos="fade-left" data-aos-duration="2000">
-                        <Link to="/Act3">
+                        <Link to="Act3">
                             <div className="flex items-center relative w-40 h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px]">
                                 Act III: "Omnipresence Over Mortals"
                             </div>
                         </Link>
-                        <Link to="/Act4">
+                        <Link to="Act4">
                             <div className="flex items-center relative w-40 h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px]">
                                 Act IV: "Requiem of the Echoing Depths"
                             </div>

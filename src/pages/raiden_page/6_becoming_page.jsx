@@ -1,4 +1,4 @@
-import Journey from "../components/journey";
+import Journey from "../../components/journey";
 
 function Becoming(){
     return(

@@ -1,7 +1,7 @@
-import weaponpage from "../media/background/background_dekstop11.jpg"
-import Eskill from "../media/talent/skill_e.png"
-import Qskill from "../media/talent/skill_burst.png"
-import swap from "../media/talent/swap_character.png"
+import weaponpage from "../../media/background/background_dekstop11.jpg"
+import Eskill from "../../media/talent/skill_e.png"
+import Qskill from "../../media/talent/skill_burst.png"
+import swap from "../../media/talent/swap_character.png"
 function Guide(){
     return(
     <>

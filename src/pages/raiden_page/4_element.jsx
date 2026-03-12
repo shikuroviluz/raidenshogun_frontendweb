@@ -1,6 +1,6 @@
-import background4 from "../media/background/background_dekstop4.png"
-import gnosispict from "../media/artefact/gnosis_electro.png"
-import electroculus from "../../public/assets/electroculus.png"
+import background4 from "../../media/background/background_dekstop4.png"
+import gnosispict from "../../media/artefact/gnosis_electro.png"
+import electroculus from "../../../public/assets/electroculus.png"
 function Element() {
     return(
     <>

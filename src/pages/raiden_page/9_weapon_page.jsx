@@ -1,6 +1,6 @@
-import weaponpage from "../media/background/background_dekstop9.jpg"
-import D_WP_sign from "../components/d_engulfing_dekstop";
-import D_WP_thecatch from "../components/d_thecatch_dekstop";
+import weaponpage from "../../media/background/background_dekstop9.jpg"
+import D_WP_sign from "../../components/d_engulfing_dekstop";
+import D_WP_thecatch from "../../components/d_thecatch_dekstop";
 function WeaponDekstop(){
     return(
     <>

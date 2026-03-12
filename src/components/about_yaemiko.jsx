@@ -12,7 +12,7 @@ function About_yaemiko (){
                     <div className="flex flex-col p-4 bg-gradient-to-l from-pink-600 to-pink-950 rounded-2xl max-w-7xl w-full mx-auto">
                         <div className="grid grid-cols-2 ">
                             <div className="flex flex-col justify-center text-white">
-                                <Link to="/" className="mb-2">
+                                <Link to="/App_raiden/" className="mb-2">
                                     <div className="w-fit h-8 bg-[#525354] rounded-xl text-[15px] flex items-center justify-center text-white 
                                         cursor-pointer hover:scale-105 transition duration-300 hover:shadow-lg hover:text-[#525354] hover:bg-white">
                                     <h1 className="p-2">Back to home</h1>
@@ -39,7 +39,6 @@ function About_yaemiko (){
                         </div>
                         <div className="w-full h-[2px] bg-white rounded-2xl"></div>
                         <br />
-                        
                         <br />
                         <div className="flex flex-row">
                             <div className="flex flex-col w-1/2">
@@ -85,7 +84,7 @@ function About_yaemiko (){
                     <div className="flex flex-col p-4 bg-gradient-to-l from-pink-600 to-pink-950 rounded-2xl w-full mx-auto">
                         <div className="grid grid-cols-2 ">
                             <div className="flex flex-col justify-center text-white">
-                                <Link to="/" className="mb-2">
+                                <Link to="/App_raiden/" className="mb-2">
                                     <div className="w-fit h-8 bg-[#525354] rounded-xl text-[10px] flex items-center justify-center text-white 
                                         cursor-pointer hover:scale-105 transition duration-300 hover:shadow-lg hover:text-[#525354] hover:bg-white">
                                     <h1 className="p-2">Back to home</h1>
@@ -113,7 +112,6 @@ function About_yaemiko (){
                         </div>
                         <div className="w-full h-[2px] bg-white rounded-2xl"></div>
                         <br />
-                        
                         <br />
                         <div className="flex flex-row">
                             <div className="flex flex-col w-1/2 text-[10px]">

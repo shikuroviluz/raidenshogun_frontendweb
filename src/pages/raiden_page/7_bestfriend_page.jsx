@@ -1,7 +1,7 @@
-import background6 from "../media/background/background_dekstop7.jpg"
-import raidenpp from "../../public/assets/profile/raidenprofile.jpg"
-import yaemikopp from "../../public/assets/profile/yaemikoprofile.jpg"
-import hubungan from "../media/talent/swap_character.png"
+import background6 from "../../media/background/background_dekstop7.jpg"
+import raidenpp from "../../../public/assets/profile/raidenprofile.jpg"
+import yaemikopp from "../../../public/assets/profile/yaemikoprofile.jpg"
+import hubungan from "../../media/talent/swap_character.png"
 import { Link } from "react-router-dom";
 function Friend(){
     return(
@@ -22,7 +22,7 @@ function Friend(){
                         Sayuri dan Kitsune Saiguu; mereka bertiga (Sayuri, Ciccio, Kitsune Saiguu) adalah teman-teman awal 
                         Baal/Ei yang hilang dalam perang.
                     </p>
-                    <Link to="/About_yaemiko" data-aos="fade-right" data-aos-duration="1500">
+                    <Link to="About_yaemiko" data-aos="fade-right" data-aos-duration="1500">
                         <div className="my-4 flex items-center justify-center relative w-45 h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl hover:bg-pink-600 text-[10px]">
                             About YaeMiko
                         </div>
@@ -51,7 +51,7 @@ function Friend(){
                 (kembaran dan Archon Elektro sebelumnya), dan dua teman masa lalu yang tragis: Sayuri dan Kitsune Saiguu; mereka 
                 bertiga (Sayuri, Ciccio, Kitsune Saiguu) adalah teman-teman awal Baal/Ei yang hilang dalam perang
             </p>
-            <Link to="/About_yaemiko" data-aos="fade-in" data-aos-duration="1500">
+            <Link to="About_yaemiko" data-aos="fade-in" data-aos-duration="1500">
                 <div className="my-4 flex items-center justify-center relative w-45 h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl hover:bg-pink-600 text-[10px]">
                     About YaeMiko
                 </div>

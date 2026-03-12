@@ -19,7 +19,7 @@ function Act1(){
         <div className="w-full h-full bg-[#d59fff]">
             <div className="flex justify-center px-26 p-4">
                 <div className="bg-[#310056] text-white p-4 rounded-2xl w-300">
-                    <Link to="/" className="mb-2">
+                    <Link to="/App_raiden/" className="mb-2">
                         <div className="w-fit h-8 bg-[#525354] rounded-xl text-[15px] flex items-center justify-center text-white 
                             cursor-pointer hover:scale-105 transition duration-300 hover:shadow-lg hover:text-[#525354] hover:bg-white">
                         <h1 className="p-2">Back to home</h1>
@@ -113,7 +113,7 @@ function Act1(){
                         </div>
                     </div>
                     <br />
-                    <Link to="/" className="mb-2">
+                    <Link to="/App_raiden/" className="mb-2">
                         <div className="w-fit h-8 bg-[#525354] rounded-xl text-[15px] flex items-center justify-center text-white 
                             cursor-pointer hover:scale-105 transition duration-300 hover:shadow-lg hover:text-[#525354] hover:bg-white">
                         <h1 className="p-2">Back to home</h1>
@@ -129,7 +129,7 @@ function Act1(){
         <div className="w-full h-full bg-[#d59fff]">
             <div className="flex justify-center px-2 p-4">
                 <div className="bg-[#310056] text-white p-4 rounded-2xl w-300">
-                    <Link to="/" className="mb-2">
+                    <Link to="/App_raiden/" className="mb-2">
                         <div className="w-fit h-8 bg-[#525354] rounded-xl text-[15px] flex items-center justify-center text-white 
                             cursor-pointer hover:scale-105 transition duration-300 hover:shadow-lg hover:text-[#525354] hover:bg-white">
                         <h1 className="p-2">Back to home</h1>
@@ -222,7 +222,7 @@ function Act1(){
                         </div>
                     </div>
                     <br />
-                    <Link to="/" className="mb-2">
+                    <Link to="/App_raiden/" className="mb-2">
                         <div className="w-fit h-8 bg-[#525354] rounded-xl text-[15px] flex items-center justify-center text-white 
                             cursor-pointer hover:scale-105 transition duration-300 hover:shadow-lg hover:text-[#525354] hover:bg-white">
                         <h1 className="p-2">Back to home</h1>

@@ -1,11 +1,11 @@
-import background2 from "../media/background/background_dekstop2.jpg";
-import backgroundmobile from "../media/mobile_card_page/raidencard.png";
-import logoelectro from "../../public/assets/electroculus.png";
-import chibichar from "../media/chibi_character/chibi_raiden1.png";
-import china from "../media/bendera/china_flag.jpg";
-import japan from "../media/bendera/japan_flag.jpg";
-import english from "../media/bendera/english_flag.jpg";
-import korea from "../media/bendera/korea_flag.jpg";
+import background2 from "../../media/background/background_dekstop2.jpg";
+import backgroundmobile from "../../media/mobile_card_page/raidencard.png";
+import logoelectro from "../../../public/assets/electroculus.png";
+import chibichar from "../../media/chibi_character/chibi_raiden1.png";
+import china from "../../media/bendera/china_flag.jpg";
+import japan from "../../media/bendera/japan_flag.jpg";
+import english from "../../media/bendera/english_flag.jpg";
+import korea from "../../media/bendera/korea_flag.jpg";
 import { Link } from "react-router-dom";
 
 function Detail() {
@@ -19,7 +19,7 @@ function Detail() {
             <div className="absolute inset-0 bg-gradient-to-r from-[#310056]/85 to-transparent" data-aos="fade-right" data-aos-duration="1000"></div>
             <div className="absolute inset-0 z-10 flex items-center px-10">
               <div className="text-white max-w-xl flex flex-col">
-                <h1 className="text-4xl mb-4 font-genshin" data-aos="fade-right" data-aos-duration="1500"> Raiden Ei 雷電英 </h1>
+                <h1 className="text-4xl mb-4 font-genshin" data-aos="fade-right" data-aos-duration="1600"> Raiden Ei 雷電英 </h1>
                 <div className="h-[2px] w-150 sm:w-80 bg-white mb-4" data-aos="fade-right" data-aos-duration="1550"></div>
                 <p className="text-base/loose opacity-80 text-justify" data-aos="fade-right" data-aos-duration="1600">
                   perwujudan kekuatan petir yang merupakan penguasa tertinggi
@@ -32,25 +32,25 @@ function Detail() {
                     Voice Actor :
                   </h1>
                   <div className="flex gap-3 mx-auto">
-                    <Link to="/Anneyatco">
+                    <Link to="Anneyatco">
                       <div className="flex items-center relative w-30 h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl text-[9px]">
                         <img src={english} className="absolute inset-0 w-full h-full object-cover opacity-0 hover:opacity-100 rounded-2xl transition duration-300"/>
                         EN : Anne Yatco
                       </div>
                     </Link>
-                    <Link to="/Miyukisawashiro">
+                    <Link to="Miyukisawashiro">
                       <div className="flex items-center relative w-30 h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl text-[9px]">
                         <img src={japan} className="absolute inset-0 w-full h-full object-cover opacity-0 hover:opacity-100 rounded-2xl transition duration-300"/>
                         JP : Miyuki Sawashiro
                       </div>
                     </Link>
-                    <Link to="/Juhuahua">
+                    <Link to="Juhuahua">
                       <div className="flex items-center relative w-30 h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl text-[9px]">
                         <img src={china} className="absolute inset-0 w-full h-full object-cover opacity-0 hover:opacity-100 rounded-2xl transition duration-300"/>
                         CN : Juhuahua
                       </div>
                     </Link>
-                    <Link to="/Parkjiyoon">
+                    <Link to="Parkjiyoon">
                       <div className="flex items-center relative w-30 h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl text-[9px]">
                         <img src={korea} className="absolute inset-0 w-full h-full object-cover opacity-0 hover:opacity-100 rounded-2xl transition duration-300"/>
                         KR : Park Ji-yoon
@@ -104,13 +104,13 @@ function Detail() {
                 Voice Actor :
               </h1>
               <div className="flex flex-row gap-3 p-2" data-aos="fade-right" data-aos-duration="2000">
-                <Link to="/Anneyatco">
+                <Link to="Anneyatco">
                   <div className="flex items-center relative w-30 h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px]">
                     <img src={english} className="absolute inset-0 w-full h-full object-cover opacity-0 hover:opacity-100 rounded-2xl transition duration-300"/>
                     EN : Anne Yatco
                   </div>
                 </Link>
-                <Link to="/Miyukisawashiro">
+                <Link to="Miyukisawashiro">
                   <div className="flex items-center relative w-30 h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px]">
                     <img src={japan} className="absolute inset-0 w-full h-full object-cover opacity-0 hover:opacity-100 rounded-2xl transition duration-300"/>
                     JP : Miyuki Sawashiro
@@ -118,13 +118,13 @@ function Detail() {
                 </Link>
               </div>
               <div className="flex flex-row gap-3 p-2" data-aos="fade-right" data-aos-duration="2200">
-                <Link to="/Juhuahua">
+                <Link to="Juhuahua">
                   <div className="flex items-center relative w-30 h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px]">
                     <img src={china} className="absolute inset-0 w-full h-full object-cover opacity-0 hover:opacity-100 rounded-2xl transition duration-300"/>
                     CN : Juhuahua
                   </div>
                 </Link>
-                <Link to="/Parkjiyoon">
+                <Link to="Parkjiyoon">
                   <div className="flex items-center relative w-30 h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl hover:bg-purple-500 text-[9px]">
                     <img src={korea} className="absolute inset-0 w-full h-full object-cover opacity-0 hover:opacity-100 rounded-2xl transition duration-300"/>
                     KR : Park Ji-yoon

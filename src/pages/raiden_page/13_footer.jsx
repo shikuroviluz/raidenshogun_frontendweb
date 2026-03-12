@@ -1,9 +1,9 @@
-import hoyolab from "../../public/assets/sosial_media/hoyolab.jpg";
-import tailwindcss from "../../public/assets/sosial_media/tailwindcss.svg"
-import vite from "../../public/assets/sosial_media/vite.svg"
-import vscode from "../../public/assets/sosial_media/vscode.png"
-import js_logo from "../../public/assets/sosial_media/js_logo.png"
-import git from "../../public/assets/sosial_media/github_logo.png"
+import hoyolab from "../../../public/assets/sosial_media/hoyolab.jpg";
+import tailwindcss from "../../../public/assets/sosial_media/tailwindcss.svg"
+import vite from "../../../public/assets/sosial_media/vite.svg"
+import vscode from "../../../public/assets/sosial_media/vscode.png"
+import js_logo from "../../../public/assets/sosial_media/js_logo.png"
+import git from "../../../public/assets/sosial_media/github_logo.png"
 function Footer (){
     return(
     <>

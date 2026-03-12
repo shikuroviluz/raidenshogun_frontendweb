@@ -11,6 +11,21 @@
   font-family: genshinfont, sans-serif;
 }
 
+@font-face {
+  font-family: "bungee";
+  src: url("/assets/fonts/bungee-regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-bungee {
+  font-family: bungee, sans-serif;
+}
+
+.text-outline {
+  -webkit-text-stroke: 1px black;
+}
+
 .swiper {
   width: 100%;
   padding-top: 40px;

@@ -1,5 +1,5 @@
-import teampage from "../media/background/background_dekstop12.jpg"
-import Char_function from "../components/char_function";
+import teampage from "../../media/background/background_dekstop12.jpg"
+import Char_function from "../../components/char_function";
 function Team(){
     return(
     <>

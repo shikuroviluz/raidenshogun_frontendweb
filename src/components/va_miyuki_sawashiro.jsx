@@ -11,7 +11,7 @@ function Miyukisawashiro(){
                 <div className="absolute inset-0 flex flex-col p-6 items-center gap-4">
                     <div className="grid grid-cols-2 bg-gradient-to-l from-purple-500 to-[#310056] rounded-2xl max-w-7xl w-full">
                         <div className="flex flex-col justify-center p-4 text-white">
-                            <Link to="/" className="mb-2">
+                            <Link to="/App_raiden/" className="mb-2">
                                 <div className="w-fit h-8 bg-[#525354] rounded-xl text-[15px] flex items-center justify-center text-white 
                                     cursor-pointer hover:scale-105 transition duration-300 hover:shadow-lg hover:text-[#525354] hover:bg-white">
                                 <h1 className="p-2">Back to home</h1>
@@ -71,7 +71,7 @@ function Miyukisawashiro(){
                 <div className="absolute inset-0 flex flex-col p-2 items-center gap-4">
                     <div className="grid grid-cols-2 bg-gradient-to-l from-purple-500 to-[#310056] rounded-2xl w-full">
                         <div className="flex flex-col justify-center p-2 text-white">
-                            <Link to="/" className="mb-2">
+                            <Link to="/App_raiden/" className="mb-2">
                                 <div className="w-fit h-8 bg-[#525354] rounded-xl text-[15px] flex items-center justify-center text-white 
                                     cursor-pointer hover:scale-105 transition duration-300 hover:shadow-lg hover:text-[#525354] hover:bg-white">
                                 <h1 className="p-2">Back to home</h1>

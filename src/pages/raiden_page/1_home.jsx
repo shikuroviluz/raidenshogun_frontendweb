@@ -1,5 +1,6 @@
-import profile from "../../public/assets/profile/gambar_untuk_profile.jpg";
-import electroculus from "../../public/assets/electroculus.png";
+import profile from "../../../public/assets/profile/gambar_untuk_profile.jpg";
+import electroculus from "../../../public/assets/electroculus.png";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -11,6 +12,12 @@ function Home() {
 
             {/* Text */}
             <div className="flex flex-col justify-center gap-4 p-4">
+              <Link to="/" className="">
+                <div className="w-fit px-4 h-10 bg-[#525354] rounded-xl text-[15px] flex items-center justify-center text-white 
+                                cursor-pointer hover:scale-105 transition duration-300 hover:shadow-lg hover:text-[#525354] hover:bg-white">
+                    <i class="ri-arrow-left-line ri-lg">Back</i>
+                </div>
+              </Link>
               <h1 className="text-5xl/tight font-bold animate__animated animate__fadeInLeft font-genshin">
                 Raiden Shogun
               </h1>
@@ -58,6 +65,12 @@ function Home() {
         {/* ---bagian mobile--- */}
         <div className="md:hidden w-full max-w-full overflow-x-hidden">
           <div className="flex flex-col gap-3 p-4">
+            <Link to="/" className="">
+              <div className="w-fit px-4 h-10 bg-[#525354] rounded-xl text-[15px] flex items-center justify-center text-white 
+                              cursor-pointer hover:scale-105 transition duration-300 hover:shadow-lg hover:text-[#525354] hover:bg-white">
+                  <i class="ri-arrow-left-line ri-lg">Back</i>
+              </div>
+            </Link>
             <div>
               <h1 className="text-[40px] animate__animated animate__fadeInLeft font-genshin">
                 Raiden Shogun

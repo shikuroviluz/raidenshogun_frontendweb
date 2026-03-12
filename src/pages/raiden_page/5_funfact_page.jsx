@@ -1,6 +1,6 @@
-import background5 from "../media/background/background_dekstop5.jpg"
-import profilemobile from "../../public/assets/profile/raiden_mobile_profile.png"
-import electroculus_funfact from "../../public/assets/electroculus.png"
+import background5 from "../../media/background/background_dekstop5.jpg"
+import profilemobile from "../../../public/assets/profile/raiden_mobile_profile.png"
+import electroculus_funfact from "../../../public/assets/electroculus.png"
 function Funfact(){
     return(
     <>
