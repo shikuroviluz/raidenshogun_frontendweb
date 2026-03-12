@@ -8,7 +8,7 @@ import youtube from "../../public/assets/sosial_media/youtube.png"
 import tiktok from "../../public/assets/sosial_media/tiktok_logo.jpg"
 import x from "../../public/assets/sosial_media/x.png"
 import raiden_face from "../media/background/raiden_face.jpg"
-import raiden_live_wallpaper from "../media/background/raiden_live_wallpaper.mp4"
+import raiden_live_wallpaper from "../media/background/raiden_live_wallpaper.jpg"
 import raiden_shogun from "../media/varian_raiden/raiden_shogun.jpg"
 import raiden_mei from "../media/varian_raiden/raiden_mei.jpg"
 import raiden_bosenmori_mei from "../media/varian_raiden/raiden_bosenmori_mei.jpg"
@@ -135,10 +135,9 @@ function utama (){
                                     </div>
                                 </a>
                                 <div className="flex flex-row justify-center gap-2">
-                                    <video autoPlay muted loop playsInline preload="metadata" 
-                                        className="w-fit h-[132px] overflow-hidden rounded-2xl">
-                                        <source src={raiden_live_wallpaper} type="video/mp4" />
-                                    </video>
+                                    <div className="w-80 h-[132px] overflow-hidden rounded-2xl">
+                                        <img src={raiden_live_wallpaper} alt="" />
+                                    </div>
                                     <div className=" w-40 h-[132px] overflow-hidden inset-0 rounded-2xl">
                                         <img src={raiden_face} alt="" />
                                     </div>
@@ -327,12 +326,11 @@ function utama (){
                                         <h1 className="w-full text-center">Shikuro Viluz | Saweria & Media share</h1>
                                     </div>
                                 </a>
-                                <div className="flex flex-row justify-center gap-2">
-                                    <video autoPlay muted loop playsInline preload="metadata" 
-                                        className="w-fit h-[132px] overflow-hidden rounded-2xl">
-                                        <source src={raiden_live_wallpaper} type="video/mp4" />
-                                    </video>
-                                    <div className=" w-40 h-[132px] overflow-hidden inset-0 rounded-2xl">
+                                <div className="flex flex-row justify-center gap-2 pt-4">
+                                    <div className="w-70 h-[110px] overflow-hidden rounded-2xl">
+                                        <img src={raiden_live_wallpaper} alt="" />
+                                    </div>
+                                    <div className=" w-40 h-[110px] overflow-hidden inset-0 rounded-2xl">
                                         <img src={raiden_face} alt="" />
                                     </div>
                                 </div>
