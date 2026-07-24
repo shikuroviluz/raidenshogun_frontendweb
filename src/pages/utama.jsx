@@ -295,7 +295,7 @@ function utama (){
                                         <h1 className="w-full text-center">Shikuro Viluz | Saweria & Media share</h1>
                                     </div>
                                 </a>
-                                <a href="https://discord.gg/M9fjW4jZ" target="_blank" rel="noopener noreferrer">
+                                <a href="https://discord.gg/B5fY2Prd4z" target="_blank" rel="noopener noreferrer">
                                     <div className="bg-[#dedede] text-[#310056] flex flex-row p-2 gap-4 items-center w-full h-[62px] rounded-2xl 
                                                     hover:scale-105 transition duration-300 hover:bg-[#8c91dd] hover:text-white">
                                         <img src={discord} alt="socialbuzz" className="w-10 rounded-xl"/>
