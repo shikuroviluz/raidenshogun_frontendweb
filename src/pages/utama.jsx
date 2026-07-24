@@ -56,10 +56,11 @@ function utama (){
                                         </div>
                                     </div>
                                 </Link>
-                                <Link to="/"className="p-1">
-                                    <div className="flex items-center relative w-full h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl text-[9px]">
+                                <Link to="/App_sensor/"className="p-1">
+                                    <div className="flex items-center relative w-full h-10 hover:scale-105 transition duration-300 bg-purple-700 p-4 rounded-2xl text-[9px]
+                                                    hover:bg-blue-300 hover:text-yellow-300 hover:font-bold">
                                         <div className="flex flex-row justify-center items-center w-full">
-                                            <h1 className="text-center w-full text-[15px] italic">Coming Soon...</h1>
+                                            <h1 className="text-center w-full text-[15px]">Hidroponik Monitoring</h1>
                                         </div>
                                     </div>
                                 </Link>
@@ -102,7 +103,7 @@ function utama (){
                                         <h1 className="w-full text-center">Shikuro Viluz | Saweria & Media share</h1>
                                     </div>
                                 </a>
-                                <a href="https://discord.gg/M9fjW4jZ" target="_blank" rel="noopener noreferrer">
+                                <a href="https://discord.gg/B5fY2Prd4z" target="_blank" rel="noopener noreferrer">
                                     <div className="bg-[#dedede] text-[#310056] flex flex-row p-2 gap-4 items-center w-full h-[62px] rounded-2xl 
                                                     hover:scale-105 transition duration-300 hover:bg-[#8c91dd] hover:text-white">
                                         <img src={discord} alt="socialbuzz" className="w-10 rounded-xl"/>
@@ -124,14 +125,14 @@ function utama (){
                                     <div className="bg-[#dedede] text-[#310056] flex flex-row p-2 gap-4 items-center w-full h-[62px] rounded-2xl 
                                                     hover:scale-105 transition duration-300 hover:bg-[#303030] hover:text-white">
                                         <img src={tiktok} alt="socialbuzz" className="w-10 rounded-xl"/>
-                                        <h1 className="w-full text-center">Shikuro Viluz | Sociabuzz TRIBE</h1>
+                                        <h1 className="w-full text-center">@shikuroviluz._</h1>
                                     </div>
                                 </a>
                                 <a href="https://x.com/viluz_needhelp?t=iEXFpK17CJ0sBHLlcxSbKw&s=09" target="_blank" rel="noopener noreferrer">
                                     <div className="bg-[#dedede] text-[#310056] flex flex-row p-2 gap-4 items-center w-full h-[62px] rounded-2xl 
                                                     hover:scale-105 transition duration-300 hover:bg-[#303030] hover:text-white">
                                         <img src={x} alt="socialbuzz" className="w-10 rounded-xl"/>
-                                        <h1 className="w-full text-center">Shikuro Viluz | Saweria & Media share</h1>
+                                        <h1 className="w-full text-center">viluz_needhelp</h1>
                                     </div>
                                 </a>
                                 <div className="flex flex-row justify-center gap-2">
